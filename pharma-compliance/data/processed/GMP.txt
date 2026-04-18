@@ -1,0 +1,698 @@
+--- PAGE 1 ---
+
+**GOOD MANUFACTURING PRACTICES (GMP) – WHO MAIN PRINCIPLES (READY TEXT
+BLOCK)**
+---
+### 1. QUALITY MANAGEMENT
+The manufacturer must establish a comprehensive Quality Management System
+(QMS) that ensures products are consistently produced and controlled
+according to quality standards appropriate for their intended use.
+Key requirements:
+* Clearly defined quality policy and objectives
+* Quality assurance (QA) and quality control (QC) systems
+* Risk management principles applied throughout lifecycle
+* Documentation of all processes
+* Regular internal audits (self-inspection)
+* Corrective and Preventive Actions (CAPA)
+---
+### 2. SANITATION AND HYGIENE
+A high level of sanitation and hygiene must be practiced in all aspects of
+manufacturing.
+Requirements:
+* Personnel must maintain personal cleanliness
+* Appropriate protective clothing must be worn
+* No eating, drinking, or smoking in production areas
+* Premises must be cleaned regularly
+* Written sanitation procedures must be followed
+---
+### 3. QUALIFICATION AND VALIDATION
+Processes and systems must be validated to ensure consistent performance.
+Includes:
+* Equipment qualification (IQ, OQ, PQ)
+* Process validation
+* Cleaning validation
+* Analytical method validation
+* Periodic revalidation
+---
+### 4. COMPLAINTS AND PRODUCT RECALL
+There must be a system to handle complaints and recall defective products.
+Requirements:
+* All complaints must be recorded and investigated
+* Root cause analysis must be performed
+* Effective recall system must exist
+* Recall procedures must be tested regularly
+---
+
+--- PAGE 2 ---
+
+### 5. CONTRACT PRODUCTION AND ANALYSIS
+When manufacturing or testing is outsourced:
+* Written contract must define responsibilities
+* Contract acceptor must comply with GMP
+* Contract giver must evaluate contractor competence
+* No unauthorized subcontracting allowed
+---
+### 6. SELF-INSPECTION AND QUALITY AUDITS
+Regular self-inspections must be conducted to ensure compliance.
+Requirements:
+* Independent internal audit team
+* Documentation of findings
+* Follow-up on corrective actions
+---
+### 7. PERSONNEL
+Personnel must be qualified and trained.
+Requirements:
+* Clear organizational structure
+* Defined responsibilities
+* Initial and ongoing training programs
+* Medical examination where required
+Key roles:
+* Head of Production
+* Head of Quality Control
+* Qualified Person
+---
+### 8. PREMISES
+Premises must be designed to minimize risk of errors and contamination.
+Requirements:
+* Logical layout of production areas
+* Adequate space for operations
+* Controlled environmental conditions (temperature, humidity)
+* Separate areas for different operations
+* Pest control systems
+---
+### 9. EQUIPMENT
+Equipment must be appropriate and properly maintained.
+Requirements:
+* Designed to prevent contamination
+* Easy to clean and maintain
+
+--- PAGE 3 ---
+
+* Regular calibration and maintenance
+* Equipment logs must be maintained
+---
+### 10. MATERIALS
+Materials must be handled properly from receipt to use.
+Requirements:
+* Approved suppliers only
+* Proper labeling and storage
+* Quarantine system before approval
+* FIFO (First In First Out) / FEFO (First Expiry First Out)
+---
+### 11. DOCUMENTATION
+Documentation is critical to GMP compliance.
+Requirements:
+* Standard Operating Procedures (SOPs)
+* Batch Manufacturing Records (BMR)
+* Batch Packaging Records (BPR)
+* Logbooks and reports
+Principles:
+* Data integrity (ALCOA: Attributable, Legible, Contemporaneous, Original,
+Accurate)
+* No overwriting; corrections must be signed and dated
+---
+### 12. GOOD PRACTICES IN PRODUCTION
+Production must follow clearly defined procedures.
+Requirements:
+* Prevention of cross-contamination
+* Line clearance before production
+* In-process controls
+* Proper labeling and identification
+---
+### 13. GOOD PRACTICES IN QUALITY CONTROL
+Quality Control ensures products meet specifications.
+Requirements:
+* Sampling procedures
+* Testing of raw materials, intermediates, and finished products
+* Stability testing
+* Retention samples must be stored
+---
+### 14. CONTRACT LABORATORIES
+
+--- PAGE 4 ---
+
+External labs must:
+* Follow GMP principles
+* Be validated and approved
+* Maintain proper documentation
+---
+### 15. DISTRIBUTION AND STORAGE
+Products must be stored and distributed properly.
+Requirements:
+* Controlled storage conditions
+* Traceability of distribution
+* Prevention of mix-ups
+* Proper transportation conditions
+---
+### 16. PRODUCT QUALITY REVIEW
+Periodic review of products must be conducted.
+Includes:
+* Review of deviations
+* Complaints and recalls
+* Stability data
+* Process consistency
+---
+### 17. RISK MANAGEMENT
+Risk management must be applied across all operations.
+Steps:
+* Risk identification
+* Risk analysis
+* Risk control
+* Risk review
+---
+### 18. DATA INTEGRITY
+All data must be:
+* Accurate
+* Complete
+* Secure
+* Traceable
+Systems must prevent:
+* Data manipulation
+* Unauthorized access
+---
+
+--- PAGE 5 ---
+
+**END OF GMP MAIN PRINCIPLES**
+**FDA cGMP (ICH Q7) – GOOD MANUFACTURING PRACTICE FOR ACTIVE PHARMACEUTICAL
+INGREDIENTS (READY TEXT BLOCK)**
+---
+### 1. QUALITY MANAGEMENT
+A comprehensive quality management system must be established to ensure APIs
+meet required quality standards.
+Requirements:
+* Defined quality policy and responsibilities
+* Quality unit independent of production
+* Approval/rejection of materials and products by quality unit
+* Change control system for any modification
+* Deviation management and investigation
+* Corrective and Preventive Actions (CAPA)
+---
+### 2. PERSONNEL
+Personnel must be qualified, trained, and competent.
+Requirements:
+* Adequate number of qualified staff
+* Training in GMP and job-specific operations
+* Ongoing training programs
+* Personnel hygiene practices must be maintained
+* Consultants must be qualified and documented
+---
+### 3. BUILDINGS AND FACILITIES
+Facilities must be suitable for intended operations.
+Requirements:
+* Adequate space and logical flow of materials
+* Controlled environmental conditions
+* Proper ventilation, filtration, and air handling systems
+* Segregation to prevent contamination and mix-ups
+* Adequate lighting and sanitation facilities
+---
+### 4. PROCESS EQUIPMENT
+Equipment must be properly designed and maintained.
+Requirements:
+* Equipment must be suitable for intended use
+* Cleaning procedures must be validated
+* Calibration must be performed regularly
+* Equipment logs must be maintained
+* Computerized systems must be validated
+
+--- PAGE 6 ---
+
+---
+### 5. DOCUMENTATION AND RECORDS
+All activities must be documented.
+Requirements:
+* Written procedures (SOPs) must exist
+* Batch production records must be maintained
+* Equipment cleaning and use logs required
+* Records must be retained for defined periods
+* Entries must be accurate, legible, and traceable
+Data integrity principles:
+* ALCOA (Attributable, Legible, Contemporaneous, Original, Accurate)
+---
+### 6. MATERIALS MANAGEMENT
+All materials must be properly handled and controlled.
+Requirements:
+* Approved suppliers only
+* Incoming materials must be tested or qualified
+* Proper labeling and identification
+* Quarantine before release
+* Storage under appropriate conditions
+* Use of FIFO/FEFO principles
+---
+### 7. PRODUCTION AND IN-PROCESS CONTROLS
+Production must follow approved procedures.
+Requirements:
+* Written production instructions
+* In-process controls to monitor quality
+* Prevention of cross-contamination
+* Time limits for processing stages
+* Yield calculations and reconciliation
+* Reprocessing/reworking must be justified and documented
+---
+### 8. PACKAGING AND LABELING
+Packaging and labeling must ensure product identity and traceability.
+Requirements:
+* Correct labeling materials must be used
+* Label issuance must be controlled
+* Packaging operations must prevent mix-ups
+* Printed materials must be verified
+* Expiry date and batch number must be clear
+---
+
+--- PAGE 7 ---
+
+### 9. STORAGE AND DISTRIBUTION
+APIs must be stored and distributed under controlled conditions.
+Requirements:
+* Storage conditions must maintain product quality
+* Distribution records must ensure traceability
+* Transportation must prevent contamination and damage
+* Returned materials must be evaluated
+---
+### 10. LABORATORY CONTROLS
+Laboratory testing ensures product compliance.
+Requirements:
+* Specifications must be defined for materials and products
+* Validated analytical methods must be used
+* Stability testing programs required
+* Retention samples must be stored
+* Out-of-specification (OOS) results must be investigated
+---
+### 11. VALIDATION
+Critical processes must be validated.
+Requirements:
+* Process validation to ensure consistency
+* Cleaning validation
+* Analytical method validation
+* Computer system validation
+* Periodic review and revalidation
+---
+### 12. CHANGE CONTROL
+All changes must be controlled and documented.
+Requirements:
+* Formal change control system
+* Impact assessment on product quality
+* Approval before implementation
+* Documentation of all changes
+---
+### 13. REJECTION AND REUSE OF MATERIALS
+Non-conforming materials must be controlled.
+Requirements:
+* Rejected materials must be clearly identified
+* Investigation must be conducted
+* Reprocessing only if justified and approved
+* Documentation required for reuse
+
+--- PAGE 8 ---
+
+---
+### 14. COMPLAINTS AND RECALLS
+Systems must exist to handle product issues.
+Requirements:
+* Complaint records must be maintained
+* Investigations must determine root cause
+* Recall procedures must be established
+* Regulatory authorities must be informed when required
+---
+### 15. CONTRACT MANUFACTURERS AND LABORATORIES
+Outsourced activities must be controlled.
+Requirements:
+* Written agreements defining responsibilities
+* Contractor must comply with GMP
+* Regular audits of contract facilities
+* No unauthorized subcontracting
+---
+### 16. SELF-INSPECTION
+Internal audits must ensure compliance.
+Requirements:
+* Periodic GMP audits
+* Documentation of findings
+* Corrective actions must be implemented
+---
+### 17. AGENTS, BROKERS, TRADERS, DISTRIBUTORS
+Intermediaries must maintain quality standards.
+Requirements:
+* Proper documentation of transactions
+* Traceability of materials
+* Compliance with storage and transport requirements
+---
+### 18. SPECIFIC GUIDANCE FOR APIs
+Additional controls for API manufacturing:
+Requirements:
+* Control of critical process steps
+* Impurity profiling
+* Stability monitoring
+* Validation of sterilization processes (if applicable)
+
+--- PAGE 9 ---
+
+---
+**END OF FDA cGMP (ICH Q7) GUIDELINES**
+**PIC/S GMP GUIDE (PE 009 – PART I) – BASIC REQUIREMENTS FOR MEDICINAL
+PRODUCTS (READY TEXT BLOCK)**
+---
+### 1. PHARMACEUTICAL QUALITY SYSTEM (PQS)
+The manufacturer must establish and maintain a Pharmaceutical Quality System
+that ensures products are consistently produced and controlled.
+Requirements:
+* Defined quality policy and objectives
+* Management responsibility and oversight
+* Continuous improvement system
+* Quality risk management implementation
+* Product lifecycle approach
+* Change management system
+* Deviation handling and CAPA system
+---
+### 2. PERSONNEL
+Personnel must be sufficient in number and appropriately qualified.
+Requirements:
+* Clear organizational structure
+* Defined roles and responsibilities
+* Key personnel: Head of Production, Head of Quality Control, Qualified
+Person (QP)
+* Initial and ongoing GMP training
+* Hygiene procedures must be followed
+* Personnel must not be engaged in multiple conflicting roles
+---
+### 3. PREMISES AND EQUIPMENT
+Premises and equipment must be designed to minimize risk.
+#### Premises Requirements:
+* Logical layout to prevent mix-ups and contamination
+* Adequate space for operations and storage
+* Controlled environmental conditions
+* Dedicated areas for specific operations
+* Pest control and sanitation systems
+#### Equipment Requirements:
+* Suitable design and capacity
+* Easy cleaning and maintenance
+* Calibration and qualification required
+* Equipment status labeling (cleaned, in use, etc.)
+* Maintenance logs must be maintained
+---
+
+--- PAGE 10 ---
+
+### 4. DOCUMENTATION
+Documentation must ensure traceability and accountability.
+Requirements:
+* Specifications for materials and products
+* Manufacturing formulas and instructions
+* Standard Operating Procedures (SOPs)
+* Batch Processing Records (BPR)
+* Batch Packaging Records
+Principles:
+* Data must follow ALCOA (Attributable, Legible, Contemporaneous, Original,
+Accurate)
+* No unauthorized changes
+* Corrections must be signed and dated
+---
+### 5. PRODUCTION
+Production must be carried out according to predefined procedures.
+Requirements:
+* Approved instructions must be followed
+* Line clearance before operations
+* Prevention of cross-contamination
+* In-process controls must be performed
+* Yield reconciliation required
+* Handling of deviations during production
+---
+### 6. QUALITY CONTROL (QC)
+Quality Control ensures compliance with specifications.
+Requirements:
+* Sampling and testing procedures
+* Approval or rejection of materials and products
+* Stability testing programs
+* Retention samples must be stored
+* Investigation of Out-of-Specification (OOS) results
+---
+### 7. OUTSOURCED ACTIVITIES
+All outsourced activities must be controlled.
+Requirements:
+* Written contracts defining responsibilities
+* Contract acceptor must comply with GMP
+* Contract giver must audit contractor
+* No subcontracting without approval
+---
+
+--- PAGE 11 ---
+
+### 8. COMPLAINTS AND PRODUCT RECALL
+Systems must exist for handling complaints and recalls.
+Requirements:
+* Recording and investigation of complaints
+* Identification of root causes
+* Effective recall procedures
+* Regular evaluation of recall effectiveness
+---
+### 9. SELF-INSPECTION
+Regular internal audits must be conducted.
+Requirements:
+* Planned self-inspection program
+* Independent auditors
+* Documentation of findings
+* Implementation of corrective actions
+---
+### 10. QUALITY RISK MANAGEMENT
+Risk management must be applied to all processes.
+Requirements:
+* Risk identification, analysis, and evaluation
+* Risk control and mitigation
+* Periodic risk review
+* Use of scientific knowledge and experience
+---
+### 11. CHANGE CONTROL
+Changes must be formally controlled.
+Requirements:
+* Formal change control procedures
+* Impact assessment on product quality
+* Approval before implementation
+* Documentation and review of changes
+---
+### 12. DEVIATION MANAGEMENT
+All deviations must be managed systematically.
+Requirements:
+* Recording of deviations
+* Investigation of root causes
+* Implementation of CAPA
+* Documentation of outcomes
+---
+
+--- PAGE 12 ---
+
+### 13. CONTAMINATION CONTROL
+Measures must be taken to prevent contamination.
+Requirements:
+* Control of cross-contamination
+* Cleaning validation
+* Environmental monitoring
+* Use of dedicated facilities where required
+---
+### 14. VALIDATION AND QUALIFICATION
+Critical processes and systems must be validated.
+Requirements:
+* Equipment qualification (IQ, OQ, PQ)
+* Process validation
+* Cleaning validation
+* Computer system validation
+* Periodic revalidation
+---
+### 15. DATA INTEGRITY
+All GMP data must be reliable and secure.
+Requirements:
+* Data must be complete, consistent, and accurate
+* Protection against unauthorized access
+* Audit trails for electronic systems
+* Backup and recovery systems
+---
+### 16. STORAGE AND DISTRIBUTION
+Products must be stored and distributed properly.
+Requirements:
+* Controlled storage conditions
+* Segregation of materials (approved, rejected, quarantined)
+* Distribution traceability
+* Prevention of damage during transport
+---
+### 17. PRODUCT QUALITY REVIEW (PQR)
+Periodic review of product quality must be conducted.
+Includes:
+* Review of production consistency
+* Deviations and CAPA effectiveness
+* Complaints and recalls
+* Stability data analysis
+
+--- PAGE 13 ---
+
+* Process improvements
+---
+### 18. QUALIFIED PERSON (QP) RESPONSIBILITIES
+The Qualified Person is responsible for product release.
+Requirements:
+* Certification of each batch before release
+* Ensuring compliance with GMP and marketing authorization
+* Review of batch documentation
+* Authority to approve or reject batches
+---
+**END OF PIC/S GMP GUIDE (PART I)**
+**WHO-GMP CERTIFICATION GUIDELINES (INDIA) – READY TEXT BLOCK**
+---
+### 1. APPLICATION FOR WHO-GMP CERTIFICATE
+Manufacturers must apply for WHO-GMP certification through the State
+Licensing Authority (SLA) or CDSCO.
+Requirements:
+* Submission of prescribed application form
+* Payment of applicable fees
+* Details of manufacturing site and products
+* Copy of valid manufacturing license
+* Site Master File (SMF) submission
+---
+### 2. ELIGIBILITY CRITERIA
+The applicant must:
+* Hold a valid manufacturing license under Drugs and Cosmetics Act, 1940
+* Comply with Schedule M (Indian GMP requirements)
+* Manufacture products for export or intend to export
+* Have adequate facilities and qualified personnel
+---
+### 3. SITE MASTER FILE (SMF)
+A Site Master File must be submitted detailing:
+* General information about manufacturer
+* Quality management system
+* Personnel details
+* Premises and equipment
+* Documentation system
+* Production operations
+* Quality control system
+* Distribution and complaint handling
+---
+
+--- PAGE 14 ---
+
+### 4. INSPECTION FOR CERTIFICATION
+Inspection is conducted by CDSCO or State Drug Authority.
+Requirements:
+* Inspection of premises, equipment, and documentation
+* Verification of GMP compliance (Schedule M / WHO GMP)
+* Review of SOPs, batch records, validation reports
+* Observation of manufacturing and QC processes
+Outcome:
+* Compliance report generated
+* Deficiencies categorized (critical, major, minor)
+---
+### 5. DEFICIENCY MANAGEMENT
+If deficiencies are observed:
+* Manufacturer must submit corrective action plan (CAPA)
+* Timeline for compliance must be defined
+* Re-inspection may be required for major deficiencies
+* Certification is granted only after compliance
+---
+### 6. GRANT OF WHO-GMP CERTIFICATE
+Certificate is issued after successful inspection.
+Conditions:
+* Compliance with WHO GMP standards
+* No critical deficiencies
+* Adequate CAPA implementation
+Certificate validity:
+* Generally valid for 2–3 years (subject to authority rules)
+---
+### 7. PRODUCT-SPECIFIC CERTIFICATION
+WHO-GMP certificate may include:
+* List of approved products
+* Dosage forms
+* Manufacturing categories
+Requirement:
+* Only approved products can be exported under certificate
+---
+### 8. CONTINUOUS COMPLIANCE
+Post-certification, manufacturer must:
+
+--- PAGE 15 ---
+
+* Maintain GMP compliance at all times
+* Implement ongoing quality improvements
+* Report major changes to authorities
+* Allow periodic inspections
+---
+### 9. CHANGE CONTROL
+Any significant changes must be reported:
+Includes:
+* Change in premises or equipment
+* Change in manufacturing process
+* Change in key personnel
+* Change in product composition
+Approval required before implementation in certain cases.
+---
+### 10. RENEWAL OF CERTIFICATE
+Manufacturers must apply for renewal before expiry.
+Requirements:
+* Updated documentation
+* Compliance history
+* Previous inspection reports
+* Continued adherence to GMP
+---
+### 11. SUSPENSION OR CANCELLATION
+Certificate may be suspended or cancelled if:
+* Non-compliance with GMP
+* False or misleading information
+* Failure to implement CAPA
+* Serious quality defects or safety issues
+---
+### 12. DOCUMENTATION REQUIREMENTS
+Mandatory documents include:
+* Site Master File (SMF)
+* SOPs and quality manuals
+* Batch Manufacturing Records (BMR)
+* Validation reports
+* Training records
+* Equipment logs
+* Complaint and recall records
+---
+### 13. EXPORT COMPLIANCE
+For export purposes:
+
+--- PAGE 16 ---
+
+* WHO-GMP certificate required by importing countries
+* Certificate of Pharmaceutical Product (COPP) may be issued
+* Compliance with importing country regulations required
+---
+### 14. REGULATORY AUTHORITIES
+Authorities involved:
+* CDSCO (Central Drugs Standard Control Organization)
+* State Licensing Authority (SLA)
+Responsibilities:
+* Inspection and certification
+* Enforcement of GMP compliance
+* Issuance of WHO-GMP certificates
+---
+### 15. GOOD DOCUMENTATION PRACTICES (GDP)
+All records must follow:
+* Accuracy and completeness
+* Timely recording
+* No overwriting or falsification
+* Signed and dated entries
+* Traceability of all activities
+---
+### 16. TRAINING AND PERSONNEL COMPLIANCE
+Requirements:
+* GMP training for all employees
+* Periodic training updates
+* Documentation of training records
+* Qualified technical staff
+---
+### 17. QUALITY ASSURANCE RESPONSIBILITIES
+QA must ensure:
+* Compliance with GMP guidelines
+* Approval of procedures and records
+* Handling deviations and CAPA
+* Release or rejection of batches
+---
+### 18. RECALL AND COMPLAINT HANDLING
+Requirements:
+* System for handling complaints
+* Investigation of product defects
+* Recall procedures must be in place
+* Regulatory authorities must be informed if required
+
+--- PAGE 17 ---
+
+---
+**END OF WHO-GMP CERTIFICATION GUIDELINES (INDIA)**

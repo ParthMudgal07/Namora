@@ -1,0 +1,37 @@
+--- PAGE 1 ---
+
+STATE LICENSING AUTHORITY (SLA) – COMPLIANCE
+FRAMEWORK
+1. Legal Framework
+Drugs and Cosmetics Act, 1940; Drugs and Cosmetics Rules, 1945; Medical Devices Rules, 2017;
+New Drugs and Clinical Trials Rules, 2019; Cosmetics Rules, 2020.
+2. Role of SLA
+Grant licenses, conduct inspections, enforce compliance, monitor drug quality.
+3. Licensing
+Manufacturing License: GMP compliance, qualified staff, approved premises.
+Sale License: Retail and Wholesale with proper storage and pharmacist.
+Loan License: Manufacture at another licensed facility.
+4. Inspection & Enforcement
+Pre-licensing, routine, surprise, and complaint-based inspections.
+Actions: suspension, cancellation, seizure, prosecution.
+5. GMP (Schedule M)
+Quality systems, sanitation, equipment validation, documentation, batch records.
+6. Documentation
+BMR, BPR, distribution records, complaint records, recall procedures.
+7. Labeling
+Drug name, batch number, expiry, license number, storage, schedule classification.
+8. Schedule Drugs
+
+--- PAGE 2 ---
+
+Schedule H/H1/X: prescription-only, strict record keeping.
+9. Pharmacovigilance
+Adverse drug reaction monitoring and reporting.
+10. Medical Devices
+Classification A-D, ISO 13485, licensing, surveillance.
+11. Cosmetics
+Manufacturing license, safe ingredients, labeling compliance.
+12. Penalties
+Fines, imprisonment, license cancellation, recalls.
+13. Compliance Checklist
+Valid license, GMP compliance, documentation, labeling, staff, inspection readiness.

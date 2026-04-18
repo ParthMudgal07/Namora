@@ -1,0 +1,889 @@
+{
+  "company_data_source": "C:\\Users\\Parth Mudgal\\OneDrive\\Documents\\SRM\\pharma-compliance\\data\\company\\company_data.json",
+  "total_requirements": 25,
+  "overall_risk_score": 42.5,
+  "overall_risk_band": "Medium",
+  "status_counts": {
+    "compliant": 13,
+    "partial": 6,
+    "non_compliant": 6,
+    "insufficient_data": 0
+  },
+  "risk_by_regulatory_body": {
+    "CDSCO": {
+      "average_score": 44.68,
+      "risk_band": "Medium",
+      "requirement_count": 8,
+      "status_counts": {
+        "compliant": 4,
+        "partial": 2,
+        "non_compliant": 2,
+        "insufficient_data": 0
+      }
+    },
+    "GMP": {
+      "average_score": 58.33,
+      "risk_band": "Medium",
+      "requirement_count": 6,
+      "status_counts": {
+        "compliant": 2,
+        "partial": 2,
+        "non_compliant": 2,
+        "insufficient_data": 0
+      }
+    },
+    "NPPA": {
+      "average_score": 54.55,
+      "risk_band": "Medium",
+      "requirement_count": 4,
+      "status_counts": {
+        "compliant": 2,
+        "partial": 0,
+        "non_compliant": 2,
+        "insufficient_data": 0
+      }
+    },
+    "SLA": {
+      "average_score": 19.06,
+      "risk_band": "Low",
+      "requirement_count": 7,
+      "status_counts": {
+        "compliant": 5,
+        "partial": 2,
+        "non_compliant": 0,
+        "insufficient_data": 0
+      }
+    }
+  },
+  "risk_by_domain": {
+    "licensing": {
+      "average_score": 0.0,
+      "risk_band": "Low",
+      "requirement_count": 2,
+      "status_counts": {
+        "compliant": 2,
+        "partial": 0,
+        "non_compliant": 0,
+        "insufficient_data": 0
+      }
+    },
+    "manufacturing": {
+      "average_score": 0.0,
+      "risk_band": "Low",
+      "requirement_count": 3,
+      "status_counts": {
+        "compliant": 3,
+        "partial": 0,
+        "non_compliant": 0,
+        "insufficient_data": 0
+      }
+    },
+    "quality": {
+      "average_score": 100.0,
+      "risk_band": "High",
+      "requirement_count": 2,
+      "status_counts": {
+        "compliant": 0,
+        "partial": 0,
+        "non_compliant": 2,
+        "insufficient_data": 0
+      }
+    },
+    "procurement": {
+      "average_score": 75.0,
+      "risk_band": "High",
+      "requirement_count": 1,
+      "status_counts": {
+        "compliant": 0,
+        "partial": 1,
+        "non_compliant": 0,
+        "insufficient_data": 0
+      }
+    },
+    "equipment": {
+      "average_score": 75.0,
+      "risk_band": "High",
+      "requirement_count": 2,
+      "status_counts": {
+        "compliant": 0,
+        "partial": 2,
+        "non_compliant": 0,
+        "insufficient_data": 0
+      }
+    },
+    "deviation": {
+      "average_score": 100.0,
+      "risk_band": "High",
+      "requirement_count": 2,
+      "status_counts": {
+        "compliant": 0,
+        "partial": 0,
+        "non_compliant": 2,
+        "insufficient_data": 0
+      }
+    },
+    "distribution": {
+      "average_score": 0.0,
+      "risk_band": "Low",
+      "requirement_count": 1,
+      "status_counts": {
+        "compliant": 1,
+        "partial": 0,
+        "non_compliant": 0,
+        "insufficient_data": 0
+      }
+    },
+    "data_integrity": {
+      "average_score": 0.0,
+      "risk_band": "Low",
+      "requirement_count": 3,
+      "status_counts": {
+        "compliant": 3,
+        "partial": 0,
+        "non_compliant": 0,
+        "insufficient_data": 0
+      }
+    },
+    "materials": {
+      "average_score": 75.0,
+      "risk_band": "High",
+      "requirement_count": 1,
+      "status_counts": {
+        "compliant": 0,
+        "partial": 1,
+        "non_compliant": 0,
+        "insufficient_data": 0
+      }
+    },
+    "pricing": {
+      "average_score": 100.0,
+      "risk_band": "High",
+      "requirement_count": 2,
+      "status_counts": {
+        "compliant": 0,
+        "partial": 0,
+        "non_compliant": 2,
+        "insufficient_data": 0
+      }
+    },
+    "trade": {
+      "average_score": 0.0,
+      "risk_band": "Low",
+      "requirement_count": 1,
+      "status_counts": {
+        "compliant": 1,
+        "partial": 0,
+        "non_compliant": 0,
+        "insufficient_data": 0
+      }
+    },
+    "traceability": {
+      "average_score": 0.0,
+      "risk_band": "Low",
+      "requirement_count": 1,
+      "status_counts": {
+        "compliant": 1,
+        "partial": 0,
+        "non_compliant": 0,
+        "insufficient_data": 0
+      }
+    },
+    "inspection": {
+      "average_score": 0.0,
+      "risk_band": "Low",
+      "requirement_count": 1,
+      "status_counts": {
+        "compliant": 1,
+        "partial": 0,
+        "non_compliant": 0,
+        "insufficient_data": 0
+      }
+    },
+    "compliance": {
+      "average_score": 75.0,
+      "risk_band": "High",
+      "requirement_count": 1,
+      "status_counts": {
+        "compliant": 0,
+        "partial": 1,
+        "non_compliant": 0,
+        "insufficient_data": 0
+      }
+    },
+    "storage": {
+      "average_score": 62.5,
+      "risk_band": "Medium",
+      "requirement_count": 1,
+      "status_counts": {
+        "compliant": 0,
+        "partial": 1,
+        "non_compliant": 0,
+        "insufficient_data": 0
+      }
+    },
+    "documentation": {
+      "average_score": 0.0,
+      "risk_band": "Low",
+      "requirement_count": 1,
+      "status_counts": {
+        "compliant": 1,
+        "partial": 0,
+        "non_compliant": 0,
+        "insufficient_data": 0
+      }
+    }
+  },
+  "top_risk_drivers": [
+    {
+      "requirement_id": "CDSCO-003",
+      "regulatory_body": "CDSCO",
+      "domain": "quality",
+      "risk_score": 100.0,
+      "risk_band": "High",
+      "status": "non_compliant",
+      "requirement_text": "Finished products must have test results or Certificate of Analysis with parameters, results, and approval status",
+      "evaluation_reason": "Released batches lack complete approved quality evidence.",
+      "evaluation_evidence": [
+        "PCM240301A"
+      ],
+      "missing_attributes": [
+        "approval_status",
+        "test_parameters",
+        "test_results"
+      ],
+      "failing_attributes": [
+        "approval_status",
+        "test_results"
+      ]
+    },
+    {
+      "requirement_id": "CDSCO-006",
+      "regulatory_body": "CDSCO",
+      "domain": "deviation",
+      "risk_score": 100.0,
+      "risk_band": "High",
+      "status": "non_compliant",
+      "requirement_text": "Deviations must be investigated and CAPA records must capture issue, root cause, corrective action, and closure status",
+      "evaluation_reason": "No deviation record is fully closed with complete CAPA evidence.",
+      "evaluation_evidence": [
+        "Temperature excursion in finished goods store for 3 hours"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "closure_status"
+      ]
+    },
+    {
+      "requirement_id": "GMP-002",
+      "regulatory_body": "GMP",
+      "domain": "quality",
+      "risk_score": 100.0,
+      "risk_band": "High",
+      "status": "non_compliant",
+      "requirement_text": "Finished product quality must be verified before release through approved COA or QC documentation",
+      "evaluation_reason": "Released batches lack complete approved quality evidence.",
+      "evaluation_evidence": [
+        "PCM240301A"
+      ],
+      "missing_attributes": [
+        "approval_status",
+        "test_parameters",
+        "test_results"
+      ],
+      "failing_attributes": [
+        "approval_status",
+        "test_results"
+      ]
+    },
+    {
+      "requirement_id": "GMP-005",
+      "regulatory_body": "GMP",
+      "domain": "deviation",
+      "risk_score": 100.0,
+      "risk_band": "High",
+      "status": "non_compliant",
+      "requirement_text": "Deviation events must be documented with CAPA and tracked to closure",
+      "evaluation_reason": "No deviation record is fully closed with complete CAPA evidence.",
+      "evaluation_evidence": [
+        "Temperature excursion in finished goods store for 3 hours"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "closure_status"
+      ]
+    },
+    {
+      "requirement_id": "NPPA-001",
+      "regulatory_body": "NPPA",
+      "domain": "pricing",
+      "risk_score": 100.0,
+      "risk_band": "High",
+      "status": "non_compliant",
+      "requirement_text": "Scheduled formulations must comply with notified NPPA ceiling price",
+      "evaluation_reason": "All visible products breach or fail to prove NPPA ceiling compliance.",
+      "evaluation_evidence": [
+        "Paracetamol 500 Tablet",
+        "Cefixime Oral Suspension"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "mrp",
+        "nppa_ceiling_price",
+        "wpi_adjustment"
+      ]
+    }
+  ],
+  "requirement_scores": [
+    {
+      "requirement_id": "CDSCO-001",
+      "regulatory_body": "CDSCO",
+      "domain": "licensing",
+      "severity": "High",
+      "status": "compliant",
+      "base_score": 0,
+      "severity_weight": 1.5,
+      "risk_score": 0.0,
+      "risk_band": "Low",
+      "requirement_text": "Manufacturing license must be valid, traceable, and current for regulated operations",
+      "evaluation_reason": "At least one current valid manufacturing license is present.",
+      "evaluation_evidence": [
+        "MH-MFG-2024-1187"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "source_document": "CDSCO.txt",
+      "source_page": 6
+    },
+    {
+      "requirement_id": "CDSCO-002",
+      "regulatory_body": "CDSCO",
+      "domain": "manufacturing",
+      "severity": "High",
+      "status": "compliant",
+      "base_score": 0,
+      "severity_weight": 1.5,
+      "risk_score": 0.0,
+      "risk_band": "Low",
+      "requirement_text": "Each manufactured batch must have a complete Batch Manufacturing Record with batch identity, manufacturing date, and process steps",
+      "evaluation_reason": "All batches contain core manufacturing record fields.",
+      "evaluation_evidence": [
+        "PCM240301A"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "source_document": "CDSCO.txt",
+      "source_page": 5
+    },
+    {
+      "requirement_id": "CDSCO-003",
+      "regulatory_body": "CDSCO",
+      "domain": "quality",
+      "severity": "High",
+      "status": "non_compliant",
+      "base_score": 100,
+      "severity_weight": 1.5,
+      "risk_score": 100.0,
+      "risk_band": "High",
+      "requirement_text": "Finished products must have test results or Certificate of Analysis with parameters, results, and approval status",
+      "evaluation_reason": "Released batches lack complete approved quality evidence.",
+      "evaluation_evidence": [
+        "PCM240301A"
+      ],
+      "missing_attributes": [
+        "approval_status",
+        "test_parameters",
+        "test_results"
+      ],
+      "failing_attributes": [
+        "approval_status",
+        "test_results"
+      ],
+      "source_document": "CDSCO.txt",
+      "source_page": 10
+    },
+    {
+      "requirement_id": "CDSCO-004",
+      "regulatory_body": "CDSCO",
+      "domain": "procurement",
+      "severity": "High",
+      "status": "partial",
+      "base_score": 50,
+      "severity_weight": 1.5,
+      "risk_score": 75.0,
+      "risk_band": "High",
+      "requirement_text": "Raw materials must come from approved vendors and meet defined specifications",
+      "evaluation_reason": "Some vendors are not fully qualified or lack specifications.",
+      "evaluation_evidence": [
+        "SteriPack Solutions"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "approval_status",
+        "specifications"
+      ],
+      "source_document": "CDSCO.txt",
+      "source_page": 8
+    },
+    {
+      "requirement_id": "CDSCO-005",
+      "regulatory_body": "CDSCO",
+      "domain": "equipment",
+      "severity": "High",
+      "status": "partial",
+      "base_score": 50,
+      "severity_weight": 1.5,
+      "risk_score": 75.0,
+      "risk_band": "High",
+      "requirement_text": "Critical equipment must have calibration records with last calibration and next due date",
+      "evaluation_reason": "Some equipment records are overdue or incomplete.",
+      "evaluation_evidence": [
+        "HPLC-03"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "last_calibration_date",
+        "next_due_date"
+      ],
+      "source_document": "CDSCO.txt",
+      "source_page": 1
+    },
+    {
+      "requirement_id": "CDSCO-006",
+      "regulatory_body": "CDSCO",
+      "domain": "deviation",
+      "severity": "High",
+      "status": "non_compliant",
+      "base_score": 100,
+      "severity_weight": 1.5,
+      "risk_score": 100.0,
+      "risk_band": "High",
+      "requirement_text": "Deviations must be investigated and CAPA records must capture issue, root cause, corrective action, and closure status",
+      "evaluation_reason": "No deviation record is fully closed with complete CAPA evidence.",
+      "evaluation_evidence": [
+        "Temperature excursion in finished goods store for 3 hours"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "closure_status"
+      ],
+      "source_document": "CDSCO.txt",
+      "source_page": 10
+    },
+    {
+      "requirement_id": "CDSCO-007",
+      "regulatory_body": "CDSCO",
+      "domain": "distribution",
+      "severity": "Medium",
+      "status": "compliant",
+      "base_score": 0,
+      "severity_weight": 1.25,
+      "risk_score": 0.0,
+      "risk_band": "Low",
+      "requirement_text": "Batch distribution must be traceable through dispatch and distributor records",
+      "evaluation_reason": "Released batches have distributor and dispatch traceability.",
+      "evaluation_evidence": [
+        "PCM240301A"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "source_document": "CDSCO.txt",
+      "source_page": 2
+    },
+    {
+      "requirement_id": "CDSCO-008",
+      "regulatory_body": "CDSCO",
+      "domain": "data_integrity",
+      "severity": "High",
+      "status": "compliant",
+      "base_score": 0,
+      "severity_weight": 1.5,
+      "risk_score": 0.0,
+      "risk_band": "Low",
+      "requirement_text": "Electronic records must maintain an audit trail with user, action, timestamp, and record change history",
+      "evaluation_reason": "Audit trail and document-control evidence is present.",
+      "evaluation_evidence": [
+        "audit_trail_logs",
+        "documents"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "source_document": "CDSCO.txt",
+      "source_page": 9
+    },
+    {
+      "requirement_id": "GMP-001",
+      "regulatory_body": "GMP",
+      "domain": "manufacturing",
+      "severity": "High",
+      "status": "compliant",
+      "base_score": 0,
+      "severity_weight": 1.5,
+      "risk_score": 0.0,
+      "risk_band": "Low",
+      "requirement_text": "Each batch must be manufactured according to an approved Batch Manufacturing Record",
+      "evaluation_reason": "All batches contain core manufacturing record fields.",
+      "evaluation_evidence": [
+        "PCM240301A"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "source_document": "GMP.txt",
+      "source_page": 10
+    },
+    {
+      "requirement_id": "GMP-002",
+      "regulatory_body": "GMP",
+      "domain": "quality",
+      "severity": "High",
+      "status": "non_compliant",
+      "base_score": 100,
+      "severity_weight": 1.5,
+      "risk_score": 100.0,
+      "risk_band": "High",
+      "requirement_text": "Finished product quality must be verified before release through approved COA or QC documentation",
+      "evaluation_reason": "Released batches lack complete approved quality evidence.",
+      "evaluation_evidence": [
+        "PCM240301A"
+      ],
+      "missing_attributes": [
+        "approval_status",
+        "test_parameters",
+        "test_results"
+      ],
+      "failing_attributes": [
+        "approval_status",
+        "test_results"
+      ],
+      "source_document": "GMP.txt",
+      "source_page": 6
+    },
+    {
+      "requirement_id": "GMP-003",
+      "regulatory_body": "GMP",
+      "domain": "equipment",
+      "severity": "High",
+      "status": "partial",
+      "base_score": 50,
+      "severity_weight": 1.5,
+      "risk_score": 75.0,
+      "risk_band": "High",
+      "requirement_text": "Equipment used in production must be calibrated and maintained according to schedule",
+      "evaluation_reason": "Some equipment records are overdue or incomplete.",
+      "evaluation_evidence": [
+        "HPLC-03"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "last_calibration_date",
+        "next_due_date"
+      ],
+      "source_document": "GMP.txt",
+      "source_page": 6
+    },
+    {
+      "requirement_id": "GMP-004",
+      "regulatory_body": "GMP",
+      "domain": "materials",
+      "severity": "High",
+      "status": "partial",
+      "base_score": 50,
+      "severity_weight": 1.5,
+      "risk_score": 75.0,
+      "risk_band": "High",
+      "requirement_text": "Raw materials must be procured from qualified vendors and verified against specifications",
+      "evaluation_reason": "Some vendors are not fully qualified or lack specifications.",
+      "evaluation_evidence": [
+        "SteriPack Solutions"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "approval_status",
+        "specifications"
+      ],
+      "source_document": "GMP.txt",
+      "source_page": 6
+    },
+    {
+      "requirement_id": "GMP-005",
+      "regulatory_body": "GMP",
+      "domain": "deviation",
+      "severity": "High",
+      "status": "non_compliant",
+      "base_score": 100,
+      "severity_weight": 1.5,
+      "risk_score": 100.0,
+      "risk_band": "High",
+      "requirement_text": "Deviation events must be documented with CAPA and tracked to closure",
+      "evaluation_reason": "No deviation record is fully closed with complete CAPA evidence.",
+      "evaluation_evidence": [
+        "Temperature excursion in finished goods store for 3 hours"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "closure_status"
+      ],
+      "source_document": "GMP.txt",
+      "source_page": 5
+    },
+    {
+      "requirement_id": "GMP-006",
+      "regulatory_body": "GMP",
+      "domain": "data_integrity",
+      "severity": "High",
+      "status": "compliant",
+      "base_score": 0,
+      "severity_weight": 1.5,
+      "risk_score": 0.0,
+      "risk_band": "Low",
+      "requirement_text": "GMP records must preserve data integrity and audit trail history for critical operations",
+      "evaluation_reason": "Audit trail and document-control evidence is present.",
+      "evaluation_evidence": [
+        "audit_trail_logs",
+        "documents"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "source_document": "GMP.txt",
+      "source_page": 3
+    },
+    {
+      "requirement_id": "NPPA-001",
+      "regulatory_body": "NPPA",
+      "domain": "pricing",
+      "severity": "High",
+      "status": "non_compliant",
+      "base_score": 100,
+      "severity_weight": 1.5,
+      "risk_score": 100.0,
+      "risk_band": "High",
+      "requirement_text": "Scheduled formulations must comply with notified NPPA ceiling price",
+      "evaluation_reason": "All visible products breach or fail to prove NPPA ceiling compliance.",
+      "evaluation_evidence": [
+        "Paracetamol 500 Tablet",
+        "Cefixime Oral Suspension"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "mrp",
+        "nppa_ceiling_price",
+        "wpi_adjustment"
+      ],
+      "source_document": "NPPA.txt",
+      "source_page": 6
+    },
+    {
+      "requirement_id": "NPPA-002",
+      "regulatory_body": "NPPA",
+      "domain": "pricing",
+      "severity": "High",
+      "status": "non_compliant",
+      "base_score": 100,
+      "severity_weight": 1.5,
+      "risk_score": 100.0,
+      "risk_band": "High",
+      "requirement_text": "The marketed MRP must not exceed the applicable NPPA ceiling price after permitted adjustments",
+      "evaluation_reason": "All visible products breach or fail to prove NPPA ceiling compliance.",
+      "evaluation_evidence": [
+        "Paracetamol 500 Tablet",
+        "Cefixime Oral Suspension"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "mrp",
+        "nppa_ceiling_price",
+        "wpi_adjustment"
+      ],
+      "source_document": "NPPA.txt",
+      "source_page": 7
+    },
+    {
+      "requirement_id": "NPPA-003",
+      "regulatory_body": "NPPA",
+      "domain": "trade",
+      "severity": "Medium",
+      "status": "compliant",
+      "base_score": 0,
+      "severity_weight": 1.25,
+      "risk_score": 0.0,
+      "risk_band": "Low",
+      "requirement_text": "Price to retailer and downstream sale records must support pricing compliance review",
+      "evaluation_reason": "Trade pricing and sold-batch traceability are present.",
+      "evaluation_evidence": [
+        "PCM240301A"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "source_document": "NPPA.txt",
+      "source_page": 10
+    },
+    {
+      "requirement_id": "NPPA-004",
+      "regulatory_body": "NPPA",
+      "domain": "traceability",
+      "severity": "Medium",
+      "status": "compliant",
+      "base_score": 0,
+      "severity_weight": 1.25,
+      "risk_score": 0.0,
+      "risk_band": "Low",
+      "requirement_text": "Each priced product sale should be traceable by batch and manufacturer details",
+      "evaluation_reason": "Sold product records are traceable to batch and manufacturer.",
+      "evaluation_evidence": [
+        "PCM240301A"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "source_document": "NPPA.txt",
+      "source_page": 2
+    },
+    {
+      "requirement_id": "SLA-001",
+      "regulatory_body": "SLA",
+      "domain": "licensing",
+      "severity": "High",
+      "status": "compliant",
+      "base_score": 0,
+      "severity_weight": 1.5,
+      "risk_score": 0.0,
+      "risk_band": "Low",
+      "requirement_text": "State manufacturing license must be valid and available for inspection",
+      "evaluation_reason": "At least one current valid manufacturing license is present.",
+      "evaluation_evidence": [
+        "MH-MFG-2024-1187"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "source_document": "SLA.txt",
+      "source_page": 1
+    },
+    {
+      "requirement_id": "SLA-002",
+      "regulatory_body": "SLA",
+      "domain": "inspection",
+      "severity": "High",
+      "status": "compliant",
+      "base_score": 0,
+      "severity_weight": 1.5,
+      "risk_score": 0.0,
+      "risk_band": "Low",
+      "requirement_text": "Inspection events must be documented with inspection date, inspector name, and observations",
+      "evaluation_reason": "Inspection records contain date, inspector, and observations.",
+      "evaluation_evidence": [
+        "2026-02-18"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "source_document": "SLA.txt",
+      "source_page": 1
+    },
+    {
+      "requirement_id": "SLA-003",
+      "regulatory_body": "SLA",
+      "domain": "compliance",
+      "severity": "High",
+      "status": "partial",
+      "base_score": 50,
+      "severity_weight": 1.5,
+      "risk_score": 75.0,
+      "risk_band": "High",
+      "requirement_text": "Inspection or review outcomes must capture the current compliance status of the facility or product",
+      "evaluation_reason": "Inspection records show minor observations or conditional status.",
+      "evaluation_evidence": [
+        "minor observations"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "compliance_status"
+      ],
+      "source_document": "SLA.txt",
+      "source_page": 1
+    },
+    {
+      "requirement_id": "SLA-004",
+      "regulatory_body": "SLA",
+      "domain": "manufacturing",
+      "severity": "High",
+      "status": "compliant",
+      "base_score": 0,
+      "severity_weight": 1.5,
+      "risk_score": 0.0,
+      "risk_band": "Low",
+      "requirement_text": "Product and batch records must identify the manufactured product, batch, and manufacturing date",
+      "evaluation_reason": "All batches contain core manufacturing record fields.",
+      "evaluation_evidence": [
+        "PCM240301A"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "source_document": "SLA.txt",
+      "source_page": 1
+    },
+    {
+      "requirement_id": "SLA-005",
+      "regulatory_body": "SLA",
+      "domain": "storage",
+      "severity": "Medium",
+      "status": "partial",
+      "base_score": 50,
+      "severity_weight": 1.25,
+      "risk_score": 62.5,
+      "risk_band": "Medium",
+      "requirement_text": "Storage conditions relevant to licensed products must be documented and reviewable",
+      "evaluation_reason": "Some storage records are missing range, monitoring, or logs.",
+      "evaluation_evidence": [
+        "CFX240210B"
+      ],
+      "missing_attributes": [
+        "monitoring_system",
+        "storage_temperature",
+        "storage_temperature_range"
+      ],
+      "failing_attributes": [
+        "temperature_logs"
+      ],
+      "source_document": "SLA.txt",
+      "source_page": 1
+    },
+    {
+      "requirement_id": "SLA-006",
+      "regulatory_body": "SLA",
+      "domain": "documentation",
+      "severity": "Medium",
+      "status": "compliant",
+      "base_score": 0,
+      "severity_weight": 1.25,
+      "risk_score": 0.0,
+      "risk_band": "Low",
+      "requirement_text": "Controlled documents must be versioned and traceable",
+      "evaluation_reason": "Controlled documents are versioned and identifiable.",
+      "evaluation_evidence": [
+        "SOP-QA-018"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "source_document": "SLA.txt",
+      "source_page": 1
+    },
+    {
+      "requirement_id": "SLA-007",
+      "regulatory_body": "SLA",
+      "domain": "data_integrity",
+      "severity": "High",
+      "status": "compliant",
+      "base_score": 0,
+      "severity_weight": 1.5,
+      "risk_score": 0.0,
+      "risk_band": "Low",
+      "requirement_text": "User-linked timestamped records must exist for regulated documentation and changes",
+      "evaluation_reason": "Audit trail and document-control evidence is present.",
+      "evaluation_evidence": [
+        "audit_trail_logs",
+        "documents"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "source_document": "SLA.txt",
+      "source_page": 1
+    }
+  ]
+}

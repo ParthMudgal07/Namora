@@ -1,0 +1,43 @@
+{
+  "question": "What does NPPA require for ceiling price compliance?",
+  "answer": "For ceiling price compliance regarding scheduled formulations, the NPPA requires the following:\n\n*   **Price Limits:** No manufacturer shall sell above the notified ceiling price.\n*   **Uniformity:** All brands of the same formulation must comply uniformly.\n*   **Price Revisions:** Prices must be revised immediately (or within specified timelines) after NPPA notification.\n*   **Price List Display:** Every manufacturer must issue a price list in the prescribed format (Form V), display it at business premises, and provide copies to dealers and authorities.\n*   **Tax Application:** The ceiling price is exclusive of local taxes; taxes may only be added if they are actually paid or payable.\n*   **General Compliance Summary:** Manufacturers must apply the correct pricing formula and margins and must not exceed the NPPA ceiling price.\n\nFailure to comply (overpricing) leads to the recovery of the overcharged amount, including an interest penalty.",
+  "answer_mode": "openrouter",
+  "llm_error": null,
+  "sources": [
+    {
+      "source_type": "regulation_text",
+      "source_name": "NPPA.txt",
+      "page": 6,
+      "chunk_id": "nppa-page-6-chunk-2",
+      "score": 0.374284
+    },
+    {
+      "source_type": "regulation_text",
+      "source_name": "NPPA.txt",
+      "page": 6,
+      "chunk_id": "nppa-page-6-chunk-1",
+      "score": 0.32876
+    },
+    {
+      "source_type": "regulation_text",
+      "source_name": "NPPA.txt",
+      "page": 1,
+      "chunk_id": "nppa-page-1-chunk-3",
+      "score": 0.318832
+    },
+    {
+      "source_type": "regulation_text",
+      "source_name": "NPPA.txt",
+      "page": 8,
+      "chunk_id": "nppa-page-8-chunk-1",
+      "score": 0.313374
+    },
+    {
+      "source_type": "regulation_text",
+      "source_name": "NPPA.txt",
+      "page": 1,
+      "chunk_id": "nppa-page-1-chunk-2",
+      "score": 0.284381
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "company_data_source": "C:\\Users\\Parth Mudgal\\OneDrive\\Documents\\SRM\\pharma-compliance\\data\\company\\company_data.json",
+  "total_recommendations": 12,
+  "recommendations": [
+    {
+      "requirement_id": "CDSCO-003",
+      "regulatory_body": "CDSCO",
+      "domain": "quality",
+      "status": "non_compliant",
+      "severity": "High",
+      "risk_score": 100.0,
+      "priority": "Critical",
+      "issue": "Finished products must have test results or Certificate of Analysis with parameters, results, and approval status",
+      "reason": "Released batches lack complete approved quality evidence.",
+      "recommended_action": "Investigate failed quality results, hold the released batch, and complete approved QA release evidence.",
+      "owner": "Quality Control",
+      "timeline": "24 hours",
+      "evidence_reviewed": [
+        "PCM240301A"
+      ],
+      "missing_attributes": [
+        "approval_status",
+        "test_parameters",
+        "test_results"
+      ],
+      "failing_attributes": [
+        "approval_status",
+        "test_results"
+      ],
+      "source_document": "CDSCO.txt",
+      "source_page": 10
+    },
+    {
+      "requirement_id": "CDSCO-006",
+      "regulatory_body": "CDSCO",
+      "domain": "deviation",
+      "status": "non_compliant",
+      "severity": "High",
+      "risk_score": 100.0,
+      "priority": "Critical",
+      "issue": "Deviations must be investigated and CAPA records must capture issue, root cause, corrective action, and closure status",
+      "reason": "No deviation record is fully closed with complete CAPA evidence.",
+      "recommended_action": "Close open deviations with documented CAPA effectiveness checks and QA approval.",
+      "owner": "Quality Assurance",
+      "timeline": "48 hours",
+      "evidence_reviewed": [
+        "Temperature excursion in finished goods store for 3 hours"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "closure_status"
+      ],
+      "source_document": "CDSCO.txt",
+      "source_page": 10
+    },
+    {
+      "requirement_id": "GMP-002",
+      "regulatory_body": "GMP",
+      "domain": "quality",
+      "status": "non_compliant",
+      "severity": "High",
+      "risk_score": 100.0,
+      "priority": "Critical",
+      "issue": "Finished product quality must be verified before release through approved COA or QC documentation",
+      "reason": "Released batches lack complete approved quality evidence.",
+      "recommended_action": "Block release for affected batches until QC evidence is approved and all failed tests are dispositioned.",
+      "owner": "Quality Control",
+      "timeline": "24 hours",
+      "evidence_reviewed": [
+        "PCM240301A"
+      ],
+      "missing_attributes": [
+        "approval_status",
+        "test_parameters",
+        "test_results"
+      ],
+      "failing_attributes": [
+        "approval_status",
+        "test_results"
+      ],
+      "source_document": "GMP.txt",
+      "source_page": 6
+    },
+    {
+      "requirement_id": "GMP-005",
+      "regulatory_body": "GMP",
+      "domain": "deviation",
+      "status": "non_compliant",
+      "severity": "High",
+      "risk_score": 100.0,
+      "priority": "Critical",
+      "issue": "Deviation events must be documented with CAPA and tracked to closure",
+      "reason": "No deviation record is fully closed with complete CAPA evidence.",
+      "recommended_action": "Track all deviation CAPAs to closure and block affected processes until closure criteria are met.",
+      "owner": "Quality Assurance",
+      "timeline": "48 hours",
+      "evidence_reviewed": [
+        "Temperature excursion in finished goods store for 3 hours"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "closure_status"
+      ],
+      "source_document": "GMP.txt",
+      "source_page": 5
+    },
+    {
+      "requirement_id": "NPPA-001",
+      "regulatory_body": "NPPA",
+      "domain": "pricing",
+      "status": "non_compliant",
+      "severity": "High",
+      "risk_score": 100.0,
+      "priority": "Critical",
+      "issue": "Scheduled formulations must comply with notified NPPA ceiling price",
+      "reason": "All visible products breach or fail to prove NPPA ceiling compliance.",
+      "recommended_action": "Revise product MRPs to stay within NPPA ceiling price plus permitted adjustment and document the revision.",
+      "owner": "Commercial Compliance",
+      "timeline": "24 hours",
+      "evidence_reviewed": [
+        "Paracetamol 500 Tablet",
+        "Cefixime Oral Suspension"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "mrp",
+        "nppa_ceiling_price",
+        "wpi_adjustment"
+      ],
+      "source_document": "NPPA.txt",
+      "source_page": 6
+    },
+    {
+      "requirement_id": "NPPA-002",
+      "regulatory_body": "NPPA",
+      "domain": "pricing",
+      "status": "non_compliant",
+      "severity": "High",
+      "risk_score": 100.0,
+      "priority": "Critical",
+      "issue": "The marketed MRP must not exceed the applicable NPPA ceiling price after permitted adjustments",
+      "reason": "All visible products breach or fail to prove NPPA ceiling compliance.",
+      "recommended_action": "Freeze dispatch of products priced above the allowed ceiling until pricing is corrected.",
+      "owner": "Commercial Compliance",
+      "timeline": "24 hours",
+      "evidence_reviewed": [
+        "Paracetamol 500 Tablet",
+        "Cefixime Oral Suspension"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "mrp",
+        "nppa_ceiling_price",
+        "wpi_adjustment"
+      ],
+      "source_document": "NPPA.txt",
+      "source_page": 7
+    },
+    {
+      "requirement_id": "CDSCO-004",
+      "regulatory_body": "CDSCO",
+      "domain": "procurement",
+      "status": "partial",
+      "severity": "High",
+      "risk_score": 75.0,
+      "priority": "High",
+      "issue": "Raw materials must come from approved vendors and meet defined specifications",
+      "reason": "Some vendors are not fully qualified or lack specifications.",
+      "recommended_action": "Complete vendor qualification for all raw material and packaging suppliers before further procurement.",
+      "owner": "Procurement QA",
+      "timeline": "7 days",
+      "evidence_reviewed": [
+        "SteriPack Solutions"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "approval_status",
+        "specifications"
+      ],
+      "source_document": "CDSCO.txt",
+      "source_page": 8
+    },
+    {
+      "requirement_id": "CDSCO-005",
+      "regulatory_body": "CDSCO",
+      "domain": "equipment",
+      "status": "partial",
+      "severity": "High",
+      "risk_score": 75.0,
+      "priority": "High",
+      "issue": "Critical equipment must have calibration records with last calibration and next due date",
+      "reason": "Some equipment records are overdue or incomplete.",
+      "recommended_action": "Review overdue calibration items immediately and recalibrate or quarantine affected equipment.",
+      "owner": "Engineering and QA",
+      "timeline": "48 hours",
+      "evidence_reviewed": [
+        "HPLC-03"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "last_calibration_date",
+        "next_due_date"
+      ],
+      "source_document": "CDSCO.txt",
+      "source_page": 1
+    },
+    {
+      "requirement_id": "GMP-003",
+      "regulatory_body": "GMP",
+      "domain": "equipment",
+      "status": "partial",
+      "severity": "High",
+      "risk_score": 75.0,
+      "priority": "High",
+      "issue": "Equipment used in production must be calibrated and maintained according to schedule",
+      "reason": "Some equipment records are overdue or incomplete.",
+      "recommended_action": "Bring all production and QC equipment back into calibration and document impact assessments.",
+      "owner": "Engineering and QC",
+      "timeline": "72 hours",
+      "evidence_reviewed": [
+        "HPLC-03"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "last_calibration_date",
+        "next_due_date"
+      ],
+      "source_document": "GMP.txt",
+      "source_page": 6
+    },
+    {
+      "requirement_id": "GMP-004",
+      "regulatory_body": "GMP",
+      "domain": "materials",
+      "status": "partial",
+      "severity": "High",
+      "risk_score": 75.0,
+      "priority": "High",
+      "issue": "Raw materials must be procured from qualified vendors and verified against specifications",
+      "reason": "Some vendors are not fully qualified or lack specifications.",
+      "recommended_action": "Approve or suspend suppliers that do not yet have complete qualification and specification evidence.",
+      "owner": "Procurement QA",
+      "timeline": "7 days",
+      "evidence_reviewed": [
+        "SteriPack Solutions"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "approval_status",
+        "specifications"
+      ],
+      "source_document": "GMP.txt",
+      "source_page": 6
+    },
+    {
+      "requirement_id": "SLA-003",
+      "regulatory_body": "SLA",
+      "domain": "compliance",
+      "status": "partial",
+      "severity": "High",
+      "risk_score": 75.0,
+      "priority": "High",
+      "issue": "Inspection or review outcomes must capture the current compliance status of the facility or product",
+      "reason": "Inspection records show minor observations or conditional status.",
+      "recommended_action": "Address inspection observations and update readiness evidence before the next state inspection.",
+      "owner": "Site Quality Head",
+      "timeline": "5 days",
+      "evidence_reviewed": [
+        "minor observations"
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "compliance_status"
+      ],
+      "source_document": "SLA.txt",
+      "source_page": 1
+    },
+    {
+      "requirement_id": "SLA-005",
+      "regulatory_body": "SLA",
+      "domain": "storage",
+      "status": "partial",
+      "severity": "Medium",
+      "risk_score": 62.5,
+      "priority": "High",
+      "issue": "Storage conditions relevant to licensed products must be documented and reviewable",
+      "reason": "Some storage records are missing range, monitoring, or logs.",
+      "recommended_action": "Complete monitored storage controls for all batches, including range, monitoring system, and logs.",
+      "owner": "Warehouse and QA",
+      "timeline": "72 hours",
+      "evidence_reviewed": [
+        "CFX240210B"
+      ],
+      "missing_attributes": [
+        "monitoring_system",
+        "storage_temperature",
+        "storage_temperature_range"
+      ],
+      "failing_attributes": [
+        "temperature_logs"
+      ],
+      "source_document": "SLA.txt",
+      "source_page": 1
+    }
+  ]
+}

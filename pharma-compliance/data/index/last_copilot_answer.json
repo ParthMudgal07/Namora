@@ -1,0 +1,43 @@
+{
+  "question": "hello",
+  "answer": "Hello. How can I assist you with your pharma compliance inquiries regarding the CDSCO framework and the Drugs and Cosmetics Act, 1940?",
+  "answer_mode": "openrouter",
+  "llm_error": null,
+  "sources": [
+    {
+      "source_type": "regulation_text",
+      "source_name": "CDSCO.txt",
+      "page": 1,
+      "chunk_id": "cdsco-page-1-chunk-1",
+      "score": 0.0
+    },
+    {
+      "source_type": "regulation_text",
+      "source_name": "CDSCO.txt",
+      "page": 1,
+      "chunk_id": "cdsco-page-1-chunk-2",
+      "score": 0.0
+    },
+    {
+      "source_type": "regulation_text",
+      "source_name": "CDSCO.txt",
+      "page": 2,
+      "chunk_id": "cdsco-page-2-chunk-1",
+      "score": 0.0
+    },
+    {
+      "source_type": "regulation_text",
+      "source_name": "CDSCO.txt",
+      "page": 2,
+      "chunk_id": "cdsco-page-2-chunk-2",
+      "score": 0.0
+    },
+    {
+      "source_type": "regulation_text",
+      "source_name": "CDSCO.txt",
+      "page": 3,
+      "chunk_id": "cdsco-page-3-chunk-1",
+      "score": 0.0
+    }
+  ]
+}

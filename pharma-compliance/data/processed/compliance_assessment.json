@@ -1,0 +1,1152 @@
+{
+  "company_data_source": "C:\\Users\\Parth Mudgal\\OneDrive\\Documents\\SRM\\pharma-compliance\\data\\company\\company_data.json",
+  "reference_date": "2026-04-18",
+  "total_requirements": 25,
+  "status_counts": {
+    "compliant": 13,
+    "partial": 6,
+    "non_compliant": 6,
+    "insufficient_data": 0
+  },
+  "assessments": [
+    {
+      "requirement_id": "CDSCO-001",
+      "regulatory_body": "CDSCO",
+      "domain": "licensing",
+      "requirement_text": "Manufacturing license must be valid, traceable, and current for regulated operations",
+      "severity": "High",
+      "status": "compliant",
+      "coverage_ratio": 1.0,
+      "matched_attributes": [
+        {
+          "attribute": "license_number",
+          "sample_values": [
+            "MH-MFG-2024-1187"
+          ]
+        },
+        {
+          "attribute": "license_issue_date",
+          "sample_values": [
+            "2024-02-14"
+          ]
+        },
+        {
+          "attribute": "license_expiry_date",
+          "sample_values": [
+            "2027-02-13"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "evaluation_reason": "At least one current valid manufacturing license is present.",
+      "evaluation_evidence": [
+        "MH-MFG-2024-1187"
+      ],
+      "source_document": "CDSCO.txt",
+      "source_page": 6,
+      "source_excerpt": "---\n### 10. Clinical Trials and New Drugs (Schedule Y)\n* Approval required before conducting trials\n* Ethics Committee approval mandatory\n* Informed consent required from participants\n* Adverse event reporting is compulsory\n---\n### 11. Sale Restrictions\n* No sale without valid license\n* Prescription drugs sold only against valid prescription\n* Online sale regulated and monitored\n---\n### 12. Recall and Pharmacovigilance\n* Mechanism must exist for:\n* Drug recall\n* Reporting adverse drug reactions (ADR)\n* Manufacturers must notify authorities of defects\n---\n### 13. Personnel Requirements\n* Qualified pharmacists required for sale\n* Competent technical staff required for manufacturing\n* Ongoing training recommended\n---\n### 14. Prohibited Practices\n* Sale of expired drugs\n* Manufacture without l"
+    },
+    {
+      "requirement_id": "CDSCO-002",
+      "regulatory_body": "CDSCO",
+      "domain": "manufacturing",
+      "requirement_text": "Each manufactured batch must have a complete Batch Manufacturing Record with batch identity, manufacturing date, and process steps",
+      "severity": "High",
+      "status": "compliant",
+      "coverage_ratio": 1.0,
+      "matched_attributes": [
+        {
+          "attribute": "batch_id",
+          "sample_values": [
+            "PCM240301A",
+            "PCM240301A",
+            "PCM240301A"
+          ]
+        },
+        {
+          "attribute": "manufacturing_date",
+          "sample_values": [
+            "2026-03-01"
+          ]
+        },
+        {
+          "attribute": "process_steps",
+          "sample_values": [
+            "Dispensing, Granulation, Compression"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "evaluation_reason": "All batches contain core manufacturing record fields.",
+      "evaluation_evidence": [
+        "PCM240301A"
+      ],
+      "source_document": "CDSCO.txt",
+      "source_page": 5,
+      "source_excerpt": "* Drugs must be stored as per specified conditions:\n* Temperature-controlled storage (cold chain where required)\n* Protection from contamination\n* Expired drugs must be segregated and not sold\n---\n### 6. Record Keeping\nMandatory records include:\n* Batch manufacturing records\n* Raw material records\n* Distribution logs\n* Prescription records (for Schedule H1 and X drugs)\nRecords must be:\n* Accurate\n* Up-to-date\n* Available for inspection\n---\n### 7. Quality Control and Testing\n* Each batch must be tested before release\n* Quality Control (QC) unit must be independent\n* Use of approved pharmacopoeia standards\n* Retention samples must be maintained\n---\n### 8. Inspection and Compliance Monitoring\nDrug Inspectors are authorized to:\n* Inspect premises\n* Review records\n* Take samples\n* Investigate c"
+    },
+    {
+      "requirement_id": "CDSCO-003",
+      "regulatory_body": "CDSCO",
+      "domain": "quality",
+      "requirement_text": "Finished products must have test results or Certificate of Analysis with parameters, results, and approval status",
+      "severity": "High",
+      "status": "non_compliant",
+      "coverage_ratio": 0.0,
+      "matched_attributes": [
+        {
+          "attribute": "test_parameters",
+          "sample_values": [
+            "Assay, Dissolution, Uniformity"
+          ]
+        },
+        {
+          "attribute": "test_results",
+          "sample_values": [
+            "Fail, Pass, Pass"
+          ]
+        },
+        {
+          "attribute": "approval_status",
+          "sample_values": [
+            "Released",
+            "Not Approved",
+            "Approved"
+          ]
+        }
+      ],
+      "missing_attributes": [
+        "approval_status",
+        "test_parameters",
+        "test_results"
+      ],
+      "failing_attributes": [
+        "approval_status",
+        "test_results"
+      ],
+      "evaluation_reason": "Released batches lack complete approved quality evidence.",
+      "evaluation_evidence": [
+        "PCM240301A"
+      ],
+      "source_document": "CDSCO.txt",
+      "source_page": 10,
+      "source_excerpt": "To ensure compliance, an organization must:\n* Obtain valid manufacturing/import license\n* Follow GMP standards\n* Ensure accurate labeling\n* Avoid prohibited ingredients\n* Maintain proper records\n* Implement recall system\n* Ensure product safety and quality\n* Be inspection-ready at all times\n---\n**Conclusion**\nThe Cosmetics Rules, 2020 establish a comprehensive regulatory framework\nensuring that cosmetic products in India are safe, properly labeled, and\nmanufactured under controlled conditions. Compliance is mandatory for market\naccess and consumer safety.\n---\n**CDSCO GUIDANCE DOCUMENTS FRAMEWORK\n(Practical Implementation & Procedural Compliance Summary)**\n---\n### 1. Objective of Guidance Documents\nCDSCO Guidance Documents provide step-by-step procedures for regulatory\ncompliance, including"
+    },
+    {
+      "requirement_id": "CDSCO-004",
+      "regulatory_body": "CDSCO",
+      "domain": "procurement",
+      "requirement_text": "Raw materials must come from approved vendors and meet defined specifications",
+      "severity": "High",
+      "status": "partial",
+      "coverage_ratio": 0.5,
+      "matched_attributes": [
+        {
+          "attribute": "supplier_name",
+          "sample_values": [
+            "Apex Chemicals Ltd",
+            "SteriPack Solutions"
+          ]
+        },
+        {
+          "attribute": "approval_status",
+          "sample_values": [
+            "Released",
+            "Not Approved",
+            "Approved"
+          ]
+        },
+        {
+          "attribute": "specifications",
+          "sample_values": [
+            "Paracetamol IP, Moisture NMT 0.5%, Assay 99.0%-101.0%"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "approval_status",
+        "specifications"
+      ],
+      "evaluation_reason": "Some vendors are not fully qualified or lack specifications.",
+      "evaluation_evidence": [
+        "SteriPack Solutions"
+      ],
+      "source_document": "CDSCO.txt",
+      "source_page": 8,
+      "source_excerpt": "* Proper ventilation and lighting\n* Equipment must be maintained and calibrated\n* Raw materials must be tested before use\n* Written Standard Operating Procedures (SOPs) required\n---\n### 6. Labeling Requirements\nEach cosmetic product must display:\n* Name of the cosmetic\n* Name and address of manufacturer\n* Country of origin (for imports)\n* Batch number\n* Manufacturing date and expiry date\n* Net contents\n* Directions for use (if applicable)\n* Warnings or cautions (if necessary)\nProhibited:\n* Misleading or false claims\n* Use of deceptive labeling\n---\n### 7. Safety and Quality Standards\n* Cosmetics must be safe for intended use\n* Must comply with standards prescribed under BIS (Bureau of Indian\nStandards)\n* No harmful or prohibited ingredients allowed\n* Heavy metals and contaminants must be wi"
+    },
+    {
+      "requirement_id": "CDSCO-005",
+      "regulatory_body": "CDSCO",
+      "domain": "equipment",
+      "requirement_text": "Critical equipment must have calibration records with last calibration and next due date",
+      "severity": "High",
+      "status": "partial",
+      "coverage_ratio": 0.5,
+      "matched_attributes": [
+        {
+          "attribute": "equipment_id",
+          "sample_values": [
+            "TAB-PRESS-07",
+            "HPLC-03"
+          ]
+        },
+        {
+          "attribute": "last_calibration_date",
+          "sample_values": [
+            "2026-01-20",
+            "2025-06-30"
+          ]
+        },
+        {
+          "attribute": "next_due_date",
+          "sample_values": [
+            "2027-01-19",
+            "2026-06-29"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "last_calibration_date",
+        "next_due_date"
+      ],
+      "evaluation_reason": "Some equipment records are overdue or incomplete.",
+      "evaluation_evidence": [
+        "HPLC-03"
+      ],
+      "source_document": "CDSCO.txt",
+      "source_page": 1,
+      "source_excerpt": "v**CDSCO COMPLIANCE FRAMEWORK\n(Drugs and Cosmetics Act, 1940 \u2013 Structured Summary)**\n---\n### 1. Objective of the Act\nThe Drugs and Cosmetics Act, 1940 regulates the import, manufacture,\ndistribution, and sale of drugs and cosmetics in India to ensure their\nsafety, efficacy, and quality.\n---\n### 2. Regulatory Authority\n* Central Drugs Standard Control Organization (CDSCO)\n* Headed by the Drugs Controller General of India (DCGI)\n* State Drug Control Authorities assist in enforcement\n---\n### 3. Key Definitions\n* **Drug**: Includes medicines for diagnosis, treatment, mitigation, or\nprevention of diseases, and substances affecting body structure or function.\n* **Cosmetic**: Articles applied to the human body for cleansing,\nbeautifying, or altering appearance.\n* **Manufacture**: Includes any pro"
+    },
+    {
+      "requirement_id": "CDSCO-006",
+      "regulatory_body": "CDSCO",
+      "domain": "deviation",
+      "requirement_text": "Deviations must be investigated and CAPA records must capture issue, root cause, corrective action, and closure status",
+      "severity": "High",
+      "status": "non_compliant",
+      "coverage_ratio": 0.0,
+      "matched_attributes": [
+        {
+          "attribute": "issue",
+          "sample_values": [
+            "Temperature excursion in finished goods store for 3 hours"
+          ]
+        },
+        {
+          "attribute": "root_cause",
+          "sample_values": [
+            "HVAC relay failure"
+          ]
+        },
+        {
+          "attribute": "corrective_action",
+          "sample_values": [
+            "Replaced relay and initiated alarm escalation"
+          ]
+        },
+        {
+          "attribute": "closure_status",
+          "sample_values": [
+            "Open"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "closure_status"
+      ],
+      "evaluation_reason": "No deviation record is fully closed with complete CAPA evidence.",
+      "evaluation_evidence": [
+        "Temperature excursion in finished goods store for 3 hours"
+      ],
+      "source_document": "CDSCO.txt",
+      "source_page": 10,
+      "source_excerpt": "To ensure compliance, an organization must:\n* Obtain valid manufacturing/import license\n* Follow GMP standards\n* Ensure accurate labeling\n* Avoid prohibited ingredients\n* Maintain proper records\n* Implement recall system\n* Ensure product safety and quality\n* Be inspection-ready at all times\n---\n**Conclusion**\nThe Cosmetics Rules, 2020 establish a comprehensive regulatory framework\nensuring that cosmetic products in India are safe, properly labeled, and\nmanufactured under controlled conditions. Compliance is mandatory for market\naccess and consumer safety.\n---\n**CDSCO GUIDANCE DOCUMENTS FRAMEWORK\n(Practical Implementation & Procedural Compliance Summary)**\n---\n### 1. Objective of Guidance Documents\nCDSCO Guidance Documents provide step-by-step procedures for regulatory\ncompliance, including"
+    },
+    {
+      "requirement_id": "CDSCO-007",
+      "regulatory_body": "CDSCO",
+      "domain": "distribution",
+      "requirement_text": "Batch distribution must be traceable through dispatch and distributor records",
+      "severity": "Medium",
+      "status": "compliant",
+      "coverage_ratio": 1.0,
+      "matched_attributes": [
+        {
+          "attribute": "batch_id",
+          "sample_values": [
+            "PCM240301A",
+            "PCM240301A",
+            "PCM240301A"
+          ]
+        },
+        {
+          "attribute": "distributor",
+          "sample_values": [
+            "HealthLine Distributors"
+          ]
+        },
+        {
+          "attribute": "dispatch_details",
+          "sample_values": [
+            "Dispatch note DN-7741 to Pune warehouse"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "evaluation_reason": "Released batches have distributor and dispatch traceability.",
+      "evaluation_evidence": [
+        "PCM240301A"
+      ],
+      "source_document": "CDSCO.txt",
+      "source_page": 2,
+      "source_excerpt": "---\n### 8. Labeling and Packaging Requirements\n* Must include:\n* Drug name\n* Manufacturer details\n* Batch number\n* Expiry date\n* False or misleading claims are prohibited.\n---\n### 9. Quality Control and Testing\n* Drugs must comply with standards defined in official pharmacopoeia.\n* Government analysts test samples for compliance.\n* Inspectors have authority to collect samples.\n---\n### 10. Inspection and Enforcement\n* Drug Inspectors are appointed to:\n* Inspect premises\n* Take samples\n* Investigate violations\n* Non-compliance can lead to suspension or cancellation of licenses.\n---\n### 11. Penalties and Offences\n* Manufacturing or selling spurious/adulterated drugs:\n* Severe penalties including imprisonment and fines\n* Repeat offences attract stricter punishment\n---\n### 12. Clinical Trials a"
+    },
+    {
+      "requirement_id": "CDSCO-008",
+      "regulatory_body": "CDSCO",
+      "domain": "data_integrity",
+      "requirement_text": "Electronic records must maintain an audit trail with user, action, timestamp, and record change history",
+      "severity": "High",
+      "status": "compliant",
+      "coverage_ratio": 1.0,
+      "matched_attributes": [
+        {
+          "attribute": "user_id",
+          "sample_values": [
+            "qa.manager"
+          ]
+        },
+        {
+          "attribute": "action",
+          "sample_values": [
+            "Updated batch release record"
+          ]
+        },
+        {
+          "attribute": "timestamp",
+          "sample_values": [
+            "2026-03-05T14:22:00"
+          ]
+        },
+        {
+          "attribute": "record_changes",
+          "sample_values": [
+            "Updated CAPA approval workflow, Added warehouse review checklist",
+            "Approval status set to Released, COA reference attached"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "evaluation_reason": "Audit trail and document-control evidence is present.",
+      "evaluation_evidence": [
+        "audit_trail_logs",
+        "documents"
+      ],
+      "source_document": "CDSCO.txt",
+      "source_page": 9,
+      "source_excerpt": "* Non-compliant products may be seized or banned\n---\n### 11. Inspection and Enforcement\nAuthorities may:\n* Inspect manufacturing facilities\n* Verify compliance with GMP\n* Examine records and documents\nActions for non-compliance:\n* Suspension or cancellation of license\n* Seizure of products\n* Legal penalties\n---\n### 12. Recall Mechanism\n* Manufacturers/importers must:\n* Maintain a system for product recall\n* Inform authorities in case of safety issues\n* Defective products must be withdrawn from the market\n---\n### 13. Record Keeping\nMandatory records include:\n* Manufacturing records\n* Batch details\n* Raw material records\n* Distribution records\nRecords must be:\n* Maintained properly\n* Available for inspection\n---\n### 14. Sale and Distribution\n* Sale allowed only through licensed entities\n* Pr"
+    },
+    {
+      "requirement_id": "GMP-001",
+      "regulatory_body": "GMP",
+      "domain": "manufacturing",
+      "requirement_text": "Each batch must be manufactured according to an approved Batch Manufacturing Record",
+      "severity": "High",
+      "status": "compliant",
+      "coverage_ratio": 1.0,
+      "matched_attributes": [
+        {
+          "attribute": "batch_id",
+          "sample_values": [
+            "PCM240301A",
+            "PCM240301A",
+            "PCM240301A"
+          ]
+        },
+        {
+          "attribute": "manufacturing_date",
+          "sample_values": [
+            "2026-03-01"
+          ]
+        },
+        {
+          "attribute": "process_steps",
+          "sample_values": [
+            "Dispensing, Granulation, Compression"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "evaluation_reason": "All batches contain core manufacturing record fields.",
+      "evaluation_evidence": [
+        "PCM240301A"
+      ],
+      "source_document": "GMP.txt",
+      "source_page": 10,
+      "source_excerpt": "### 4. DOCUMENTATION\nDocumentation must ensure traceability and accountability.\nRequirements:\n* Specifications for materials and products\n* Manufacturing formulas and instructions\n* Standard Operating Procedures (SOPs)\n* Batch Processing Records (BPR)\n* Batch Packaging Records\nPrinciples:\n* Data must follow ALCOA (Attributable, Legible, Contemporaneous, Original,\nAccurate)\n* No unauthorized changes\n* Corrections must be signed and dated\n---\n### 5. PRODUCTION\nProduction must be carried out according to predefined procedures.\nRequirements:\n* Approved instructions must be followed\n* Line clearance before operations\n* Prevention of cross-contamination\n* In-process controls must be performed\n* Yield reconciliation required\n* Handling of deviations during production\n---\n### 6. QUALITY CONTROL (Q"
+    },
+    {
+      "requirement_id": "GMP-002",
+      "regulatory_body": "GMP",
+      "domain": "quality",
+      "requirement_text": "Finished product quality must be verified before release through approved COA or QC documentation",
+      "severity": "High",
+      "status": "non_compliant",
+      "coverage_ratio": 0.0,
+      "matched_attributes": [
+        {
+          "attribute": "test_parameters",
+          "sample_values": [
+            "Assay, Dissolution, Uniformity"
+          ]
+        },
+        {
+          "attribute": "test_results",
+          "sample_values": [
+            "Fail, Pass, Pass"
+          ]
+        },
+        {
+          "attribute": "approval_status",
+          "sample_values": [
+            "Released",
+            "Not Approved",
+            "Approved"
+          ]
+        }
+      ],
+      "missing_attributes": [
+        "approval_status",
+        "test_parameters",
+        "test_results"
+      ],
+      "failing_attributes": [
+        "approval_status",
+        "test_results"
+      ],
+      "evaluation_reason": "Released batches lack complete approved quality evidence.",
+      "evaluation_evidence": [
+        "PCM240301A"
+      ],
+      "source_document": "GMP.txt",
+      "source_page": 6,
+      "source_excerpt": "---\n### 5. DOCUMENTATION AND RECORDS\nAll activities must be documented.\nRequirements:\n* Written procedures (SOPs) must exist\n* Batch production records must be maintained\n* Equipment cleaning and use logs required\n* Records must be retained for defined periods\n* Entries must be accurate, legible, and traceable\nData integrity principles:\n* ALCOA (Attributable, Legible, Contemporaneous, Original, Accurate)\n---\n### 6. MATERIALS MANAGEMENT\nAll materials must be properly handled and controlled.\nRequirements:\n* Approved suppliers only\n* Incoming materials must be tested or qualified\n* Proper labeling and identification\n* Quarantine before release\n* Storage under appropriate conditions\n* Use of FIFO/FEFO principles\n---\n### 7. PRODUCTION AND IN-PROCESS CONTROLS\nProduction must follow approved proc"
+    },
+    {
+      "requirement_id": "GMP-003",
+      "regulatory_body": "GMP",
+      "domain": "equipment",
+      "requirement_text": "Equipment used in production must be calibrated and maintained according to schedule",
+      "severity": "High",
+      "status": "partial",
+      "coverage_ratio": 0.5,
+      "matched_attributes": [
+        {
+          "attribute": "equipment_id",
+          "sample_values": [
+            "TAB-PRESS-07",
+            "HPLC-03"
+          ]
+        },
+        {
+          "attribute": "last_calibration_date",
+          "sample_values": [
+            "2026-01-20",
+            "2025-06-30"
+          ]
+        },
+        {
+          "attribute": "next_due_date",
+          "sample_values": [
+            "2027-01-19",
+            "2026-06-29"
+          ]
+        },
+        {
+          "attribute": "maintenance_status",
+          "sample_values": [
+            "Active",
+            "Calibration overdue review open"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "last_calibration_date",
+        "next_due_date"
+      ],
+      "evaluation_reason": "Some equipment records are overdue or incomplete.",
+      "evaluation_evidence": [
+        "HPLC-03"
+      ],
+      "source_document": "GMP.txt",
+      "source_page": 6,
+      "source_excerpt": "---\n### 5. DOCUMENTATION AND RECORDS\nAll activities must be documented.\nRequirements:\n* Written procedures (SOPs) must exist\n* Batch production records must be maintained\n* Equipment cleaning and use logs required\n* Records must be retained for defined periods\n* Entries must be accurate, legible, and traceable\nData integrity principles:\n* ALCOA (Attributable, Legible, Contemporaneous, Original, Accurate)\n---\n### 6. MATERIALS MANAGEMENT\nAll materials must be properly handled and controlled.\nRequirements:\n* Approved suppliers only\n* Incoming materials must be tested or qualified\n* Proper labeling and identification\n* Quarantine before release\n* Storage under appropriate conditions\n* Use of FIFO/FEFO principles\n---\n### 7. PRODUCTION AND IN-PROCESS CONTROLS\nProduction must follow approved proc"
+    },
+    {
+      "requirement_id": "GMP-004",
+      "regulatory_body": "GMP",
+      "domain": "materials",
+      "requirement_text": "Raw materials must be procured from qualified vendors and verified against specifications",
+      "severity": "High",
+      "status": "partial",
+      "coverage_ratio": 0.5,
+      "matched_attributes": [
+        {
+          "attribute": "supplier_name",
+          "sample_values": [
+            "Apex Chemicals Ltd",
+            "SteriPack Solutions"
+          ]
+        },
+        {
+          "attribute": "approval_status",
+          "sample_values": [
+            "Released",
+            "Not Approved",
+            "Approved"
+          ]
+        },
+        {
+          "attribute": "specifications",
+          "sample_values": [
+            "Paracetamol IP, Moisture NMT 0.5%, Assay 99.0%-101.0%"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "approval_status",
+        "specifications"
+      ],
+      "evaluation_reason": "Some vendors are not fully qualified or lack specifications.",
+      "evaluation_evidence": [
+        "SteriPack Solutions"
+      ],
+      "source_document": "GMP.txt",
+      "source_page": 6,
+      "source_excerpt": "---\n### 5. DOCUMENTATION AND RECORDS\nAll activities must be documented.\nRequirements:\n* Written procedures (SOPs) must exist\n* Batch production records must be maintained\n* Equipment cleaning and use logs required\n* Records must be retained for defined periods\n* Entries must be accurate, legible, and traceable\nData integrity principles:\n* ALCOA (Attributable, Legible, Contemporaneous, Original, Accurate)\n---\n### 6. MATERIALS MANAGEMENT\nAll materials must be properly handled and controlled.\nRequirements:\n* Approved suppliers only\n* Incoming materials must be tested or qualified\n* Proper labeling and identification\n* Quarantine before release\n* Storage under appropriate conditions\n* Use of FIFO/FEFO principles\n---\n### 7. PRODUCTION AND IN-PROCESS CONTROLS\nProduction must follow approved proc"
+    },
+    {
+      "requirement_id": "GMP-005",
+      "regulatory_body": "GMP",
+      "domain": "deviation",
+      "requirement_text": "Deviation events must be documented with CAPA and tracked to closure",
+      "severity": "High",
+      "status": "non_compliant",
+      "coverage_ratio": 0.0,
+      "matched_attributes": [
+        {
+          "attribute": "issue",
+          "sample_values": [
+            "Temperature excursion in finished goods store for 3 hours"
+          ]
+        },
+        {
+          "attribute": "root_cause",
+          "sample_values": [
+            "HVAC relay failure"
+          ]
+        },
+        {
+          "attribute": "corrective_action",
+          "sample_values": [
+            "Replaced relay and initiated alarm escalation"
+          ]
+        },
+        {
+          "attribute": "closure_status",
+          "sample_values": [
+            "Open"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "closure_status"
+      ],
+      "evaluation_reason": "No deviation record is fully closed with complete CAPA evidence.",
+      "evaluation_evidence": [
+        "Temperature excursion in finished goods store for 3 hours"
+      ],
+      "source_document": "GMP.txt",
+      "source_page": 5,
+      "source_excerpt": "**END OF GMP MAIN PRINCIPLES**\n**FDA cGMP (ICH Q7) \u2013 GOOD MANUFACTURING PRACTICE FOR ACTIVE PHARMACEUTICAL\nINGREDIENTS (READY TEXT BLOCK)**\n---\n### 1. QUALITY MANAGEMENT\nA comprehensive quality management system must be established to ensure APIs\nmeet required quality standards.\nRequirements:\n* Defined quality policy and responsibilities\n* Quality unit independent of production\n* Approval/rejection of materials and products by quality unit\n* Change control system for any modification\n* Deviation management and investigation\n* Corrective and Preventive Actions (CAPA)\n---\n### 2. PERSONNEL\nPersonnel must be qualified, trained, and competent.\nRequirements:\n* Adequate number of qualified staff\n* Training in GMP and job-specific operations\n* Ongoing training programs\n* Personnel hygiene practice"
+    },
+    {
+      "requirement_id": "GMP-006",
+      "regulatory_body": "GMP",
+      "domain": "data_integrity",
+      "requirement_text": "GMP records must preserve data integrity and audit trail history for critical operations",
+      "severity": "High",
+      "status": "compliant",
+      "coverage_ratio": 1.0,
+      "matched_attributes": [
+        {
+          "attribute": "user_id",
+          "sample_values": [
+            "qa.manager"
+          ]
+        },
+        {
+          "attribute": "action",
+          "sample_values": [
+            "Updated batch release record"
+          ]
+        },
+        {
+          "attribute": "timestamp",
+          "sample_values": [
+            "2026-03-05T14:22:00"
+          ]
+        },
+        {
+          "attribute": "record_changes",
+          "sample_values": [
+            "Updated CAPA approval workflow, Added warehouse review checklist",
+            "Approval status set to Released, COA reference attached"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "evaluation_reason": "Audit trail and document-control evidence is present.",
+      "evaluation_evidence": [
+        "audit_trail_logs",
+        "documents"
+      ],
+      "source_document": "GMP.txt",
+      "source_page": 3,
+      "source_excerpt": "* Regular calibration and maintenance\n* Equipment logs must be maintained\n---\n### 10. MATERIALS\nMaterials must be handled properly from receipt to use.\nRequirements:\n* Approved suppliers only\n* Proper labeling and storage\n* Quarantine system before approval\n* FIFO (First In First Out) / FEFO (First Expiry First Out)\n---\n### 11. DOCUMENTATION\nDocumentation is critical to GMP compliance.\nRequirements:\n* Standard Operating Procedures (SOPs)\n* Batch Manufacturing Records (BMR)\n* Batch Packaging Records (BPR)\n* Logbooks and reports\nPrinciples:\n* Data integrity (ALCOA: Attributable, Legible, Contemporaneous, Original,\nAccurate)\n* No overwriting; corrections must be signed and dated\n---\n### 12. GOOD PRACTICES IN PRODUCTION\nProduction must follow clearly defined procedures.\nRequirements:\n* Prevent"
+    },
+    {
+      "requirement_id": "NPPA-001",
+      "regulatory_body": "NPPA",
+      "domain": "pricing",
+      "requirement_text": "Scheduled formulations must comply with notified NPPA ceiling price",
+      "severity": "High",
+      "status": "non_compliant",
+      "coverage_ratio": 0.0,
+      "matched_attributes": [
+        {
+          "attribute": "product_name",
+          "sample_values": [
+            "Paracetamol 500 Tablet",
+            "Cefixime Oral Suspension",
+            "Paracetamol 500 Tablet"
+          ]
+        },
+        {
+          "attribute": "formulation_type",
+          "sample_values": [
+            "Tablet",
+            "Suspension"
+          ]
+        },
+        {
+          "attribute": "dosage_strength",
+          "sample_values": [
+            "500 mg",
+            "50 mg/5 mL"
+          ]
+        },
+        {
+          "attribute": "pack_size",
+          "sample_values": [
+            "10x10",
+            "30 mL"
+          ]
+        },
+        {
+          "attribute": "nppa_ceiling_price",
+          "sample_values": [
+            "23.0",
+            "66.5"
+          ]
+        },
+        {
+          "attribute": "mrp",
+          "sample_values": [
+            "24.5",
+            "68.0"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "mrp",
+        "nppa_ceiling_price",
+        "wpi_adjustment"
+      ],
+      "evaluation_reason": "All visible products breach or fail to prove NPPA ceiling compliance.",
+      "evaluation_evidence": [
+        "Paracetamol 500 Tablet",
+        "Cefixime Oral Suspension"
+      ],
+      "source_document": "NPPA.txt",
+      "source_page": 6,
+      "source_excerpt": "* Focus on affordability and accessibility\n* Strengthened regulatory oversight\n---\n### 12. Practical Guidelines for Implementation\n* Regularly track NLEM updates\n* Align product pricing with NPPA notifications\n* Maintain robust data systems for compliance\n* Conduct periodic internal pricing audits\n---\n### 13. Conclusion\nNPPP 2012 establishes a balanced framework that:\n* Ensures access to essential medicines\n* Promotes fair pricing practices\n* Supports sustainable growth of the pharmaceutical sector\n## \ud83d\udcd8KEY PRICING REGULATIONS (NPPA / DPCO 2013)\n### 1. Ceiling Price of Scheduled Formulations (Para 4)\n* NPPA shall fix the ceiling price of scheduled formulations listed under\nNLEM\n* Ceiling price is calculated using market-based pricing methodology\n* Formula:\n* Simple average of price to retai"
+    },
+    {
+      "requirement_id": "NPPA-002",
+      "regulatory_body": "NPPA",
+      "domain": "pricing",
+      "requirement_text": "The marketed MRP must not exceed the applicable NPPA ceiling price after permitted adjustments",
+      "severity": "High",
+      "status": "non_compliant",
+      "coverage_ratio": 0.0,
+      "matched_attributes": [
+        {
+          "attribute": "product_name",
+          "sample_values": [
+            "Paracetamol 500 Tablet",
+            "Cefixime Oral Suspension",
+            "Paracetamol 500 Tablet"
+          ]
+        },
+        {
+          "attribute": "nppa_ceiling_price",
+          "sample_values": [
+            "23.0",
+            "66.5"
+          ]
+        },
+        {
+          "attribute": "mrp",
+          "sample_values": [
+            "24.5",
+            "68.0"
+          ]
+        },
+        {
+          "attribute": "wpi_adjustment",
+          "sample_values": [
+            "0.8",
+            "0.8"
+          ]
+        },
+        {
+          "attribute": "price_revision_date",
+          "sample_values": [
+            "2026-01-15",
+            "2026-01-15"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "mrp",
+        "nppa_ceiling_price",
+        "wpi_adjustment"
+      ],
+      "evaluation_reason": "All visible products breach or fail to prove NPPA ceiling compliance.",
+      "evaluation_evidence": [
+        "Paracetamol 500 Tablet",
+        "Cefixime Oral Suspension"
+      ],
+      "source_document": "NPPA.txt",
+      "source_page": 7,
+      "source_excerpt": "* Market-based data (e.g., pharmaceutical sales data)\n**Guidelines:**\n* Only relevant and valid market data shall be considered\n* Outliers and non-representative data may be excluded\n---\n### 4. Retail Price Calculation Formula (Para 5 & 6)\n* Retail Price (RP) is calculated as:\nRP = (Cost + Margin) + Applicable Taxes\n**Guidelines:**\n* Must include retailer margin\n* Taxes are applied separately as per law\n---\n### 5. Price Revision of Scheduled Drugs (Para 16)\n* Annual price revision allowed based on:\n* Wholesale Price Index (WPI)\n**Compliance Requirements:**\n* Manufacturers must:\n* Adjust prices as per WPI notification\n* Not exceed revised ceiling price\n* Revision must be implemented within prescribed time\n---\n### 6. Pricing of Non-Scheduled Formulations (Para 20)\n* Manufacturers are free to"
+    },
+    {
+      "requirement_id": "NPPA-003",
+      "regulatory_body": "NPPA",
+      "domain": "trade",
+      "requirement_text": "Price to retailer and downstream sale records must support pricing compliance review",
+      "severity": "Medium",
+      "status": "compliant",
+      "coverage_ratio": 1.0,
+      "matched_attributes": [
+        {
+          "attribute": "product_name",
+          "sample_values": [
+            "Paracetamol 500 Tablet",
+            "Cefixime Oral Suspension",
+            "Paracetamol 500 Tablet"
+          ]
+        },
+        {
+          "attribute": "price_to_retailer",
+          "sample_values": [
+            "21.0",
+            "59.0"
+          ]
+        },
+        {
+          "attribute": "sale_date",
+          "sample_values": [
+            "2026-03-12"
+          ]
+        },
+        {
+          "attribute": "invoice_id",
+          "sample_values": [
+            "INV-24031"
+          ]
+        },
+        {
+          "attribute": "customer_type",
+          "sample_values": [
+            "Distributor"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "evaluation_reason": "Trade pricing and sold-batch traceability are present.",
+      "evaluation_evidence": [
+        "PCM240301A"
+      ],
+      "source_document": "NPPA.txt",
+      "source_page": 10,
+      "source_excerpt": "**Objective:**\n* Ensure transparency and accessibility of pricing information\n---\n### 4. Reporting and Data Submission\n* Companies must submit information to NPPA as required\n**Includes:**\n* Production data\n* Sales data\n* Pricing details\n* Market share data\n**Compliance Requirement:**\n* Data must be accurate, complete, and timely\n---\n### 5. Maintenance of Records\n* Mandatory to maintain detailed records of:\n* Production\n* Sales\n* Distribution\n* Pricing\n**Requirement:**\n* Records must be:\n* Updated regularly\n* Available for inspection by NPPA\n---\n### 6. Overcharging Compliance\n* Any sale above ceiling price is considered overcharging\n**Mandatory Actions:**\n* Deposit overcharged amount with NPPA\n* Pay applicable interest\n**Implication:**\n* Strict liability regardless of intent\n---\n### 7. Com"
+    },
+    {
+      "requirement_id": "NPPA-004",
+      "regulatory_body": "NPPA",
+      "domain": "traceability",
+      "requirement_text": "Each priced product sale should be traceable by batch and manufacturer details",
+      "severity": "Medium",
+      "status": "compliant",
+      "coverage_ratio": 1.0,
+      "matched_attributes": [
+        {
+          "attribute": "product_name",
+          "sample_values": [
+            "Paracetamol 500 Tablet",
+            "Cefixime Oral Suspension",
+            "Paracetamol 500 Tablet"
+          ]
+        },
+        {
+          "attribute": "batch_id",
+          "sample_values": [
+            "PCM240301A",
+            "PCM240301A",
+            "PCM240301A"
+          ]
+        },
+        {
+          "attribute": "manufacturer_name",
+          "sample_values": [
+            "MedSure Formulations Pvt Ltd"
+          ]
+        },
+        {
+          "attribute": "sale_date",
+          "sample_values": [
+            "2026-03-12"
+          ]
+        },
+        {
+          "attribute": "invoice_id",
+          "sample_values": [
+            "INV-24031"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "evaluation_reason": "Sold product records are traceable to batch and manufacturer.",
+      "evaluation_evidence": [
+        "PCM240301A"
+      ],
+      "source_document": "NPPA.txt",
+      "source_page": 2,
+      "source_excerpt": "#### 4.2 Submission of Information (Para 21)\n* Mandatory submission of:\n* Production data\n* Sales data\n* Pricing details\n* Must be provided to NPPA when required\n---\n#### 4.3 Maintenance of Records (Para 22)\n* Companies must maintain:\n* Detailed records of production and sales\n* Pricing and distribution data\n* Records must be available for inspection\n---\n### 5. Regulation of Non-Scheduled Drugs (Para 20)\n* Manufacturers can increase price up to 10% annually\n* Any increase beyond 10% triggers NPPA intervention\n---\n### 6. Overcharging Provisions (Para 13)\n* If a company charges above ceiling price:\n* Must deposit overcharged amount\n* Along with interest\n* Recovery is mandatory and enforceable\n---\n### 7. Discontinuation of Production (Para 21(2))\n* Manufacturer must:\n* Inform NPPA at least 6"
+    },
+    {
+      "requirement_id": "SLA-001",
+      "regulatory_body": "SLA",
+      "domain": "licensing",
+      "requirement_text": "State manufacturing license must be valid and available for inspection",
+      "severity": "High",
+      "status": "compliant",
+      "coverage_ratio": 1.0,
+      "matched_attributes": [
+        {
+          "attribute": "license_number",
+          "sample_values": [
+            "MH-MFG-2024-1187"
+          ]
+        },
+        {
+          "attribute": "license_issue_date",
+          "sample_values": [
+            "2024-02-14"
+          ]
+        },
+        {
+          "attribute": "license_expiry_date",
+          "sample_values": [
+            "2027-02-13"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "evaluation_reason": "At least one current valid manufacturing license is present.",
+      "evaluation_evidence": [
+        "MH-MFG-2024-1187"
+      ],
+      "source_document": "SLA.txt",
+      "source_page": 1,
+      "source_excerpt": "STATE LICENSING AUTHORITY (SLA) \u2013 COMPLIANCE\nFRAMEWORK\n1. Legal Framework\nDrugs and Cosmetics Act, 1940; Drugs and Cosmetics Rules, 1945; Medical Devices Rules, 2017;\nNew Drugs and Clinical Trials Rules, 2019; Cosmetics Rules, 2020.\n2. Role of SLA\nGrant licenses, conduct inspections, enforce compliance, monitor drug quality.\n3. Licensing\nManufacturing License: GMP compliance, qualified staff, approved premises.\nSale License: Retail and Wholesale with proper storage and pharmacist.\nLoan License: Manufacture at another licensed facility.\n4. Inspection & Enforcement\nPre-licensing, routine, surprise, and complaint-based inspections.\nActions: suspension, cancellation, seizure, prosecution.\n5. GMP (Schedule M)\nQuality systems, sanitation, equipment validation, documentation, batch records.\n6. Do"
+    },
+    {
+      "requirement_id": "SLA-002",
+      "regulatory_body": "SLA",
+      "domain": "inspection",
+      "requirement_text": "Inspection events must be documented with inspection date, inspector name, and observations",
+      "severity": "High",
+      "status": "compliant",
+      "coverage_ratio": 1.0,
+      "matched_attributes": [
+        {
+          "attribute": "inspection_date",
+          "sample_values": [
+            "2026-02-18"
+          ]
+        },
+        {
+          "attribute": "inspector_name",
+          "sample_values": [
+            "R. Sharma"
+          ]
+        },
+        {
+          "attribute": "inspection_observation",
+          "sample_values": [
+            "Warehouse segregation acceptable, but data log review frequency was inconsistent."
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "evaluation_reason": "Inspection records contain date, inspector, and observations.",
+      "evaluation_evidence": [
+        "2026-02-18"
+      ],
+      "source_document": "SLA.txt",
+      "source_page": 1,
+      "source_excerpt": "STATE LICENSING AUTHORITY (SLA) \u2013 COMPLIANCE\nFRAMEWORK\n1. Legal Framework\nDrugs and Cosmetics Act, 1940; Drugs and Cosmetics Rules, 1945; Medical Devices Rules, 2017;\nNew Drugs and Clinical Trials Rules, 2019; Cosmetics Rules, 2020.\n2. Role of SLA\nGrant licenses, conduct inspections, enforce compliance, monitor drug quality.\n3. Licensing\nManufacturing License: GMP compliance, qualified staff, approved premises.\nSale License: Retail and Wholesale with proper storage and pharmacist.\nLoan License: Manufacture at another licensed facility.\n4. Inspection & Enforcement\nPre-licensing, routine, surprise, and complaint-based inspections.\nActions: suspension, cancellation, seizure, prosecution.\n5. GMP (Schedule M)\nQuality systems, sanitation, equipment validation, documentation, batch records.\n6. Do"
+    },
+    {
+      "requirement_id": "SLA-003",
+      "regulatory_body": "SLA",
+      "domain": "compliance",
+      "requirement_text": "Inspection or review outcomes must capture the current compliance status of the facility or product",
+      "severity": "High",
+      "status": "partial",
+      "coverage_ratio": 0.5,
+      "matched_attributes": [
+        {
+          "attribute": "compliance_status",
+          "sample_values": [
+            "Minor observations"
+          ]
+        },
+        {
+          "attribute": "inspection_date",
+          "sample_values": [
+            "2026-02-18"
+          ]
+        },
+        {
+          "attribute": "inspection_observation",
+          "sample_values": [
+            "Warehouse segregation acceptable, but data log review frequency was inconsistent."
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [
+        "compliance_status"
+      ],
+      "evaluation_reason": "Inspection records show minor observations or conditional status.",
+      "evaluation_evidence": [
+        "minor observations"
+      ],
+      "source_document": "SLA.txt",
+      "source_page": 1,
+      "source_excerpt": "STATE LICENSING AUTHORITY (SLA) \u2013 COMPLIANCE\nFRAMEWORK\n1. Legal Framework\nDrugs and Cosmetics Act, 1940; Drugs and Cosmetics Rules, 1945; Medical Devices Rules, 2017;\nNew Drugs and Clinical Trials Rules, 2019; Cosmetics Rules, 2020.\n2. Role of SLA\nGrant licenses, conduct inspections, enforce compliance, monitor drug quality.\n3. Licensing\nManufacturing License: GMP compliance, qualified staff, approved premises.\nSale License: Retail and Wholesale with proper storage and pharmacist.\nLoan License: Manufacture at another licensed facility.\n4. Inspection & Enforcement\nPre-licensing, routine, surprise, and complaint-based inspections.\nActions: suspension, cancellation, seizure, prosecution.\n5. GMP (Schedule M)\nQuality systems, sanitation, equipment validation, documentation, batch records.\n6. Do"
+    },
+    {
+      "requirement_id": "SLA-004",
+      "regulatory_body": "SLA",
+      "domain": "manufacturing",
+      "requirement_text": "Product and batch records must identify the manufactured product, batch, and manufacturing date",
+      "severity": "High",
+      "status": "compliant",
+      "coverage_ratio": 1.0,
+      "matched_attributes": [
+        {
+          "attribute": "product_name",
+          "sample_values": [
+            "Paracetamol 500 Tablet",
+            "Cefixime Oral Suspension",
+            "Paracetamol 500 Tablet"
+          ]
+        },
+        {
+          "attribute": "batch_id",
+          "sample_values": [
+            "PCM240301A",
+            "PCM240301A",
+            "PCM240301A"
+          ]
+        },
+        {
+          "attribute": "manufacturing_date",
+          "sample_values": [
+            "2026-03-01"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "evaluation_reason": "All batches contain core manufacturing record fields.",
+      "evaluation_evidence": [
+        "PCM240301A"
+      ],
+      "source_document": "SLA.txt",
+      "source_page": 1,
+      "source_excerpt": "STATE LICENSING AUTHORITY (SLA) \u2013 COMPLIANCE\nFRAMEWORK\n1. Legal Framework\nDrugs and Cosmetics Act, 1940; Drugs and Cosmetics Rules, 1945; Medical Devices Rules, 2017;\nNew Drugs and Clinical Trials Rules, 2019; Cosmetics Rules, 2020.\n2. Role of SLA\nGrant licenses, conduct inspections, enforce compliance, monitor drug quality.\n3. Licensing\nManufacturing License: GMP compliance, qualified staff, approved premises.\nSale License: Retail and Wholesale with proper storage and pharmacist.\nLoan License: Manufacture at another licensed facility.\n4. Inspection & Enforcement\nPre-licensing, routine, surprise, and complaint-based inspections.\nActions: suspension, cancellation, seizure, prosecution.\n5. GMP (Schedule M)\nQuality systems, sanitation, equipment validation, documentation, batch records.\n6. Do"
+    },
+    {
+      "requirement_id": "SLA-005",
+      "regulatory_body": "SLA",
+      "domain": "storage",
+      "requirement_text": "Storage conditions relevant to licensed products must be documented and reviewable",
+      "severity": "Medium",
+      "status": "partial",
+      "coverage_ratio": 0.5,
+      "matched_attributes": [
+        {
+          "attribute": "storage_temperature",
+          "sample_values": [
+            "25 C",
+            "28 C"
+          ]
+        },
+        {
+          "attribute": "product_name",
+          "sample_values": [
+            "Paracetamol 500 Tablet",
+            "Cefixime Oral Suspension",
+            "Paracetamol 500 Tablet"
+          ]
+        },
+        {
+          "attribute": "batch_id",
+          "sample_values": [
+            "PCM240301A",
+            "PCM240301A",
+            "PCM240301A"
+          ]
+        }
+      ],
+      "missing_attributes": [
+        "monitoring_system",
+        "storage_temperature",
+        "storage_temperature_range"
+      ],
+      "failing_attributes": [
+        "temperature_logs"
+      ],
+      "evaluation_reason": "Some storage records are missing range, monitoring, or logs.",
+      "evaluation_evidence": [
+        "CFX240210B"
+      ],
+      "source_document": "SLA.txt",
+      "source_page": 1,
+      "source_excerpt": "STATE LICENSING AUTHORITY (SLA) \u2013 COMPLIANCE\nFRAMEWORK\n1. Legal Framework\nDrugs and Cosmetics Act, 1940; Drugs and Cosmetics Rules, 1945; Medical Devices Rules, 2017;\nNew Drugs and Clinical Trials Rules, 2019; Cosmetics Rules, 2020.\n2. Role of SLA\nGrant licenses, conduct inspections, enforce compliance, monitor drug quality.\n3. Licensing\nManufacturing License: GMP compliance, qualified staff, approved premises.\nSale License: Retail and Wholesale with proper storage and pharmacist.\nLoan License: Manufacture at another licensed facility.\n4. Inspection & Enforcement\nPre-licensing, routine, surprise, and complaint-based inspections.\nActions: suspension, cancellation, seizure, prosecution.\n5. GMP (Schedule M)\nQuality systems, sanitation, equipment validation, documentation, batch records.\n6. Do"
+    },
+    {
+      "requirement_id": "SLA-006",
+      "regulatory_body": "SLA",
+      "domain": "documentation",
+      "requirement_text": "Controlled documents must be versioned and traceable",
+      "severity": "Medium",
+      "status": "compliant",
+      "coverage_ratio": 1.0,
+      "matched_attributes": [
+        {
+          "attribute": "document_id",
+          "sample_values": [
+            "SOP-QA-018"
+          ]
+        },
+        {
+          "attribute": "document_version",
+          "sample_values": [
+            "v3.2"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "evaluation_reason": "Controlled documents are versioned and identifiable.",
+      "evaluation_evidence": [
+        "SOP-QA-018"
+      ],
+      "source_document": "SLA.txt",
+      "source_page": 1,
+      "source_excerpt": "STATE LICENSING AUTHORITY (SLA) \u2013 COMPLIANCE\nFRAMEWORK\n1. Legal Framework\nDrugs and Cosmetics Act, 1940; Drugs and Cosmetics Rules, 1945; Medical Devices Rules, 2017;\nNew Drugs and Clinical Trials Rules, 2019; Cosmetics Rules, 2020.\n2. Role of SLA\nGrant licenses, conduct inspections, enforce compliance, monitor drug quality.\n3. Licensing\nManufacturing License: GMP compliance, qualified staff, approved premises.\nSale License: Retail and Wholesale with proper storage and pharmacist.\nLoan License: Manufacture at another licensed facility.\n4. Inspection & Enforcement\nPre-licensing, routine, surprise, and complaint-based inspections.\nActions: suspension, cancellation, seizure, prosecution.\n5. GMP (Schedule M)\nQuality systems, sanitation, equipment validation, documentation, batch records.\n6. Do"
+    },
+    {
+      "requirement_id": "SLA-007",
+      "regulatory_body": "SLA",
+      "domain": "data_integrity",
+      "requirement_text": "User-linked timestamped records must exist for regulated documentation and changes",
+      "severity": "High",
+      "status": "compliant",
+      "coverage_ratio": 1.0,
+      "matched_attributes": [
+        {
+          "attribute": "user_id",
+          "sample_values": [
+            "qa.manager"
+          ]
+        },
+        {
+          "attribute": "timestamp",
+          "sample_values": [
+            "2026-03-05T14:22:00"
+          ]
+        },
+        {
+          "attribute": "document_id",
+          "sample_values": [
+            "SOP-QA-018"
+          ]
+        },
+        {
+          "attribute": "document_version",
+          "sample_values": [
+            "v3.2"
+          ]
+        }
+      ],
+      "missing_attributes": [],
+      "failing_attributes": [],
+      "evaluation_reason": "Audit trail and document-control evidence is present.",
+      "evaluation_evidence": [
+        "audit_trail_logs",
+        "documents"
+      ],
+      "source_document": "SLA.txt",
+      "source_page": 1,
+      "source_excerpt": "STATE LICENSING AUTHORITY (SLA) \u2013 COMPLIANCE\nFRAMEWORK\n1. Legal Framework\nDrugs and Cosmetics Act, 1940; Drugs and Cosmetics Rules, 1945; Medical Devices Rules, 2017;\nNew Drugs and Clinical Trials Rules, 2019; Cosmetics Rules, 2020.\n2. Role of SLA\nGrant licenses, conduct inspections, enforce compliance, monitor drug quality.\n3. Licensing\nManufacturing License: GMP compliance, qualified staff, approved premises.\nSale License: Retail and Wholesale with proper storage and pharmacist.\nLoan License: Manufacture at another licensed facility.\n4. Inspection & Enforcement\nPre-licensing, routine, surprise, and complaint-based inspections.\nActions: suspension, cancellation, seizure, prosecution.\n5. GMP (Schedule M)\nQuality systems, sanitation, equipment validation, documentation, batch records.\n6. Do"
+    }
+  ]
+}

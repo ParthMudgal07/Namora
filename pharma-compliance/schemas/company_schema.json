@@ -1,0 +1,116 @@
+{
+  "company_name": "",
+  "manufacturer_name": "",
+  "regulatory_scope": ["CDSCO", "GMP", "NPPA", "SLA"],
+
+  "licenses": [
+    {
+      "license_number": "",
+      "license_issue_date": "",
+      "license_expiry_date": "",
+      "issuing_authority": ""
+    }
+  ],
+
+  "products": [
+    {
+      "product_name": "",
+      "formulation_type": "",
+      "dosage_strength": "",
+      "pack_size": "",
+      "mrp": 0,
+      "nppa_ceiling_price": 0,
+      "price_to_retailer": 0,
+      "price_revision_date": "",
+      "wpi_adjustment": 0
+    }
+  ],
+
+  "batches": [
+    {
+      "batch_id": "",
+      "product_name": "",
+      "manufacturing_date": "",
+      "process_steps": [],
+      "approval_status": "",
+      "distributor": "",
+      "dispatch_details": "",
+      "sale_date": "",
+      "invoice_id": "",
+      "customer_type": ""
+    }
+  ],
+
+  "quality_records": [
+    {
+      "batch_id": "",
+      "test_parameters": [],
+      "test_results": [],
+      "approval_status": "",
+      "coa_reference": ""
+    }
+  ],
+
+  "raw_materials_and_vendors": [
+    {
+      "supplier_name": "",
+      "approval_status": "",
+      "specifications": []
+    }
+  ],
+
+  "equipment_records": [
+    {
+      "equipment_id": "",
+      "last_calibration_date": "",
+      "next_due_date": "",
+      "maintenance_status": ""
+    }
+  ],
+
+  "deviations_and_capa": [
+    {
+      "issue": "",
+      "root_cause": "",
+      "corrective_action": "",
+      "closure_status": ""
+    }
+  ],
+
+  "inspection_records": [
+    {
+      "inspection_date": "",
+      "inspector_name": "",
+      "inspection_observation": "",
+      "compliance_status": ""
+    }
+  ],
+
+  "storage_records": [
+    {
+      "product_name": "",
+      "batch_id": "",
+      "storage_temperature": "",
+      "storage_temperature_range": "",
+      "monitoring_system": "",
+      "temperature_logs": []
+    }
+  ],
+
+  "documents": [
+    {
+      "document_id": "",
+      "document_version": "",
+      "record_changes": []
+    }
+  ],
+
+  "audit_trail_logs": [
+    {
+      "user_id": "",
+      "action": "",
+      "timestamp": "",
+      "record_changes": []
+    }
+  ]
+}

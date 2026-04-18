@@ -1,0 +1,135 @@
+{
+  "company_name": "MedSure Formulations Pvt Ltd",
+  "manufacturer_name": "MedSure Formulations Pvt Ltd",
+  "regulatory_scope": ["CDSCO", "GMP", "NPPA", "SLA"],
+  "licenses": [
+    {
+      "license_number": "MH-MFG-2024-1187",
+      "license_issue_date": "2024-02-14",
+      "license_expiry_date": "2027-02-13",
+      "issuing_authority": "Maharashtra FDA"
+    }
+  ],
+  "products": [
+    {
+      "product_name": "Paracetamol 500 Tablet",
+      "formulation_type": "Tablet",
+      "dosage_strength": "500 mg",
+      "pack_size": "10x10",
+      "mrp": 24.5,
+      "nppa_ceiling_price": 23.0,
+      "price_to_retailer": 21.0,
+      "price_revision_date": "2026-01-15",
+      "wpi_adjustment": 0.8
+    },
+    {
+      "product_name": "Cefixime Oral Suspension",
+      "formulation_type": "Suspension",
+      "dosage_strength": "50 mg/5 mL",
+      "pack_size": "30 mL",
+      "mrp": 68.0,
+      "nppa_ceiling_price": 66.5,
+      "price_to_retailer": 59.0,
+      "price_revision_date": "2026-01-15",
+      "wpi_adjustment": 0.8
+    }
+  ],
+  "batches": [
+    {
+      "batch_id": "PCM240301A",
+      "product_name": "Paracetamol 500 Tablet",
+      "manufacturing_date": "2026-03-01",
+      "process_steps": ["Dispensing", "Granulation", "Compression", "Blister Packing"],
+      "approval_status": "Released",
+      "distributor": "HealthLine Distributors",
+      "dispatch_details": "Dispatch note DN-7741 to Pune warehouse",
+      "sale_date": "2026-03-12",
+      "invoice_id": "INV-24031",
+      "customer_type": "Distributor"
+    }
+  ],
+  "quality_records": [
+    {
+      "batch_id": "PCM240301A",
+      "test_parameters": ["Assay", "Dissolution", "Uniformity", "Microbial limit"],
+      "test_results": ["Fail", "Pass", "Pass", "Pass"],
+      "approval_status": "Not Approved",
+      "coa_reference": "COA-PCM240301A"
+    }
+  ],
+  "raw_materials_and_vendors": [
+    {
+      "supplier_name": "Apex Chemicals Ltd",
+      "approval_status": "Approved",
+      "specifications": ["Paracetamol IP", "Moisture NMT 0.5%", "Assay 99.0%-101.0%"]
+    },
+    {
+      "supplier_name": "SteriPack Solutions",
+      "approval_status": "Under review",
+      "specifications": []
+    }
+  ],
+  "equipment_records": [
+    {
+      "equipment_id": "TAB-PRESS-07",
+      "last_calibration_date": "2026-01-20",
+      "next_due_date": "2027-01-19",
+      "maintenance_status": "Active"
+    },
+    {
+      "equipment_id": "HPLC-03",
+      "last_calibration_date": "2025-06-30",
+      "next_due_date": "2026-06-29",
+      "maintenance_status": "Calibration overdue review open"
+    }
+  ],
+  "deviations_and_capa": [
+    {
+      "issue": "Temperature excursion in finished goods store for 3 hours",
+      "root_cause": "HVAC relay failure",
+      "corrective_action": "Replaced relay and initiated alarm escalation",
+      "closure_status": "Open"
+    }
+  ],
+  "inspection_records": [
+    {
+      "inspection_date": "2026-02-18",
+      "inspector_name": "R. Sharma",
+      "inspection_observation": "Warehouse segregation acceptable, but data log review frequency was inconsistent.",
+      "compliance_status": "Minor observations"
+    }
+  ],
+  "storage_records": [
+    {
+      "product_name": "Paracetamol 500 Tablet",
+      "batch_id": "PCM240301A",
+      "storage_temperature": "25 C",
+      "storage_temperature_range": "20-25 C",
+      "monitoring_system": "Digital logger with SMS alert",
+      "temperature_logs": ["2026-03-02: 24 C", "2026-03-03: 25 C", "2026-03-04: 24 C"]
+    },
+    {
+      "product_name": "Cefixime Oral Suspension",
+      "batch_id": "CFX240210B",
+      "storage_temperature": "28 C",
+      "storage_temperature_range": "",
+      "monitoring_system": "",
+      "temperature_logs": []
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "SOP-QA-018",
+      "document_version": "v3.2",
+      "record_changes": ["Updated CAPA approval workflow", "Added warehouse review checklist"]
+    }
+  ],
+  "audit_trail_logs": [
+    {
+      "user_id": "qa.manager",
+      "action": "Updated batch release record",
+      "timestamp": "2026-03-05T14:22:00",
+      "record_changes": ["Approval status set to Released", "COA reference attached"]
+    }
+  ]
+}
